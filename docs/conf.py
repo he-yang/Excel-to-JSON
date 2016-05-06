@@ -14,7 +14,9 @@
 
 import sys
 import os
-
+# At top on conf.py (with other import statements)
+import recommonmark
+from recommonmark.transform import AutoStructify
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -297,3 +299,12 @@ source_parsers = {
 }
 
 source_suffix = ['.rst', '.md']
+
+
+# At the bottom of conf.py
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: github_doc_root + url,
+            'auto_toc_tree_section': 'Contents',
+            }, True)
+    app.add_transform(AutoStructify)
