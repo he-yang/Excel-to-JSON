@@ -34,7 +34,7 @@ This add-in works with Excel 2016(or higher) and Excel Online.
 
 * Prepare your Excel sheet
 * In the Excel-to-JSON add-in, check the conversion type you'd like to use
-	* Regarding conversion type, check [here]().
+	* Regarding conversion type, check [here](usage.md#Conversiontypes).
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
 
