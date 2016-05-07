@@ -13,12 +13,15 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 # Get Started
 * [Introduction](getstarted.md#Introduction)
 * [Requirements](getstarted.md#Requirements)
+* [Quick Started](getstarted.md#Quickstarted)
+	* [Get add-in](getstarted.md#Getadd-in)
+	* [Use add-in](getstarted.md#Useadd-in)
 
 # Usage
 * [Usage](usage.md)
 
 # Privacy
-* [privacy](privacy.md)
+* [Privacy](privacy.md)
 
 # Disclaimer
 * [Disclaimer](disclaimer.md)
