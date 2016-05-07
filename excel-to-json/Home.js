@@ -15,15 +15,15 @@
 	function handleErr(msg,url,l)
 	{
 		//prepare error
-		txt+=" Error: " + msg +'\n'
-		txt+=" URL: " + url +'\n'
-		txt+=" Line: " + l +'<br>'
+		txt=" Error: " + msg +'\n'
+		//txt+=" URL: " + url +'\n'
+		//txt+=" Line: " + l +'<br>'
 		$('#error').html(txt)
 		//resume go button
 		$("#goButton").text('Go');
 		$("#goButton").attr("disabled",false)
 		// alert error
-		$.notify( "Error",  { position: 'left middle'});
+		$.notify( txt,  { position: 'left middle'});
 		//scroll to error
 		var scroll_offset = $("#error").offset();		
 		$("body,html").animate({scrollTop:scroll_offset.top },0);		
@@ -78,7 +78,13 @@
 			user.options.type=$('input[name="conversiontype"]:checked').val()
 			if (user.options.type=='nested'){
 				if($('#scheme').val().length>0){
-					user.options.scheme=JSON.parse($('#scheme').val().split(/\n|\r/).join(" "))
+					try {
+						user.options.scheme=JSON.parse($('#scheme').val().split(/\n|\r/).join(" "))
+					} catch(err) {
+						console.log(err)
+						throw new Error('Schema you provided is not a valid JSON')
+					}
+					
 				} else{
 					throw new Error('You must type in or paste json schema for nested json conversion.')
 				}
@@ -125,10 +131,10 @@
 			var json= user.conversion.row(values)
 			console.log('before shape')
 			try{
-				user.json.content=shape.parse(json.options.scheme)
+				user.json.content=shape.parse(json, user.options.scheme)
 			}
 			catch(err){
-				throw new Error('Check scheme you provided')
+				throw new Error('Check schema you provided')
 			}
 			console.log('after shape')
 			return user.json.content
