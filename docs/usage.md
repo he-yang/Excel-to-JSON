@@ -1,7 +1,9 @@
 # Usage
-		Reading [Get Started](getstarted.md) section first is strongly recommended.
-	
+
+Reading [Get Started](getstarted.md) section first is strongly recommended.
+ <a name="Conversiontypes"></a> 
 ## Conversion types
+ <a name="Row"></a> 
 ### Row
 		Note that you should have at least two rows as the first row will be considered as header.
 		Note that all data in active sheet will be collected for json conversion.
@@ -15,11 +17,11 @@ If you choose 'Row' as the conversion type
 **Example Excel sheet**
 
 <table class="table table-bordered table-striped table-condensed">
-<th>
-	<td>Name</td>
-	<td>Age</td>
-	<td>Company</td>
-</th>
+<tr>
+	<th>Name</th>
+	<th>Age</th>
+	<th>Company</th>
+</tr>
 <tr>
 	<td>David</td>
 	<td>27</td>
@@ -50,9 +52,35 @@ If you choose 'Row' as the conversion type
 **Example JSON**
 
 ```json
-{}
+[
+    {
+        "Name": "David",
+        "Age": 27,
+        "Company": "WTSolutions"
+    },
+    {
+        "Name": "Ton",
+        "Age": 26,
+        "Company": "WTSolutions"
+    },
+    {
+        "Name": "Kitty",
+        "Age": 30,
+        "Company": "Microsoft"
+    },
+    {
+        "Name": "Linda",
+        "Age": 30,
+        "Company": "Microsoft"
+    },
+    {
+        "Name": "Joe",
+        "Age": 40,
+        "Company": "Github"
+    }
+]
 ```
-
+ <a name="Nested"></a> 
 ### Nested
 
 This conversion type is based on an amazing open source project [shape-json](https://github.com/ansteh/shape-json).
@@ -64,12 +92,12 @@ Please read Api documentation https://github.com/ansteh/shape-json#api-documenta
 **Example Excel Sheet**
 
 <table class="table table-bordered table-striped table-condensed">
-<th>
-	<td>pid</td>
-	<td>contributor</td>
-	<td>projectID</td>
-	<td>projectName</td>
-</th>
+<tr>
+	<th>pid</th>
+	<th>contributor</th>
+	<th>projectID</th>
+	<th>projectName</th>
+</tr>
 <tr>
 	<td>1</td>
 	<td>jdalton</td>
