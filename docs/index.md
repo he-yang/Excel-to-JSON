@@ -18,7 +18,9 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 	* [Use add-in](getstarted.md#Useadd-in)
 
 # Usage
-* [Usage](usage.md)
+* [Conversion Types](usage.md#Conversiontypes)
+	* [Row](usage.md#Row)
+	* [Nested](usage.md#Nested)
 
 # Privacy
 * [Privacy](privacy.md)

@@ -11,4 +11,4 @@ Excel-to-JSON will soon be submitted to Office Store for approval.
 [https://docs.wtsolutions.cn](https://docs.wtsolutions.cn)
 
 # Author
-he.yang@wtsolutions.cn
+he.yang @wtsolutions.cn
