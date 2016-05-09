@@ -5,12 +5,11 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 ## Conversion types
  <a name="Row"></a> 
 ### Row
-		Note that you should have at least two rows as the first row will be considered as header.
-		Note that all data in active sheet will be collected for json conversion.
-
+		Note that you should select at least two rows as the first row will be considered as header.
+    
 If you choose 'Row' as the conversion type
 
-* This add-in will first collect all the data in the active sheet.
+* This add-in will first collect all selected data in the active sheet.
 * The first row will be interpreted as header.
 * The following rows will be mapped with header as you can see in the following example.
 
