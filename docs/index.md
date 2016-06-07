@@ -21,6 +21,8 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 * [Conversion Types](usage.md#Conversiontypes)
 	* [Row](usage.md#Row)
 	* [Nested](usage.md#Nested)
+* [Additional Options](usage.md#Additionaloptions)
+	* [Concat](usage.md#Concat)
 
 # Privacy
 * [Privacy](privacy.md)

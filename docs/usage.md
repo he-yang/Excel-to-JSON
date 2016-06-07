@@ -190,4 +190,11 @@ Please read Api documentation https://github.com/ansteh/shape-json#api-documenta
   ]
 }
 ```
+ <a name="Additionaloptions"></a> 
+## Additional Options
+ <a name="Concat"></a> 
+### Concat
 
+To concat coming JSON with existing JSON, you must check the "Concat coming JSON with existing JSON" checkbox.
+
+    Note that : Row JSON can only concat with Row JSON, Nested JSON can only concat with Nested JSON.
