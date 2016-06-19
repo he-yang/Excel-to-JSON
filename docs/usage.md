@@ -1,6 +1,8 @@
 # Usage
 
 Reading [Get Started](getstarted.md) section first is strongly recommended.
+
+    Line break in an Excel cell will be rendered as <br>
  <a name="Conversiontypes"></a> 
 ## Conversion types
  <a name="Row"></a> 
