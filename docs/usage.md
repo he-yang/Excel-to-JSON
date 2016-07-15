@@ -192,11 +192,25 @@ Please read Api documentation https://github.com/ansteh/shape-json#api-documenta
   ]
 }
 ```
- <a name="Additionaloptions"></a> 
-## Additional Options
+ <a name="Additionalfeatures"></a> 
+## Additional Features
  <a name="Concat"></a> 
 ### Concat
 
 To concat coming JSON with existing JSON, you must check the "Concat coming JSON with existing JSON" checkbox.
 
     Note that : Row JSON can only concat with Row JSON, Nested JSON can only concat with Nested JSON.
+### Import Schema
+
+You can easily import schema for nested JSON output by simply clicking on "Browse" button and select the JSON file you are about to load.
+
+Once selected, the file will automaticlly be loaded.
+
+
+## JSON Output
+
+There are several ways for you to save the generated JSON to your local computer.
+
+* Copy and Paste. Once JSON generated, you will see them in the add-in, and you can simply copy and paste them anywhere you want.
+* Copy to Clipboard.(Not applicable to Mac users) Once JSON generated, you can find the "Copy to Clipboard" button, click on the button, and you will have JSON on your clipboard.
+* Save As.(Not applicable to users still using old browsers) Once JSON generated, you can find the "Save As" button, click on the button, and you will get notification from your browser asking you to save JSON as a file. Note, Mac Users may need to save the file manually by pressing ⌘+S to save the file after it is opened.

@@ -11,7 +11,7 @@ This add-in works with Excel 2013(or higher) and Excel Online.
  <a name="Getadd-in"></a> 
 ### Get add-in
 
-* Get it from Office Store `(available soon)`
+* Get it from Office Store [link](https://store.office.com/app.aspx?assetid=WA104380263) https://store.office.com/app.aspx?assetid=WA104380263
 * Click on the above link and, in the top right corner, click Sign in.
 * Type the email address and password you use with Office/Microsoft.
 * Click on the “add” button after login.
@@ -35,6 +35,7 @@ This add-in works with Excel 2013(or higher) and Excel Online.
 	* Regarding conversion type, check [here](usage.md#Conversiontypes).
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
+* Later you can "copy+paste" / "copy to clipboard" / "save as" JSON and save it to your computer
 
 
 
