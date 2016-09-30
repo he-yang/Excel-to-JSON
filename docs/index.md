@@ -9,6 +9,8 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 * [Privacy](privacy.md)
 * [Disclaimer](disclaimer.md)
 * [About](about.md)
+* [Contact](contact.md)
+* [Donate](donate.md)
 
 # Get Started
 * [Introduction](getstarted.md#Introduction)
@@ -35,5 +37,10 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 # About
 * [About](about.md)
 
+# Contact
+* [Contact](contact.md)
+
+# Donate
+* [Donate](donate.md)
 
 

@@ -207,7 +207,7 @@ You can easily import schema for nested JSON output by simply clicking on "Brows
 Once selected, the file will automaticlly be loaded.
 
 
-## JSON Output
+### JSON Output
 
 There are several ways for you to save the generated JSON to your local computer.
 
