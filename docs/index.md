@@ -25,6 +25,7 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 	* [Nested](usage.md#Nested)
 * [Additional Features](usage.md#Additionalfeatures)
 	* [Concat](usage.md#Concat)
+	* [Ignore](usage.md#Ignore)
 	* [Import Schema](usage.md#importSchema)
 	* [JSON Output](usage.md#jsonOutput)
 

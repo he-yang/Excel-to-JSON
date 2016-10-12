@@ -200,13 +200,20 @@ Please read Api documentation https://github.com/ansteh/shape-json#api-documenta
 To concat coming JSON with existing JSON, you must check the "Concat coming JSON with existing JSON" checkbox.
 
     Note that : Row JSON can only concat with Row JSON, Nested JSON can only concat with Nested JSON.
+
+<a name="Ignore"></a>
+### Ignore blank cells
+
+Sometimes, there is no value for a key and we do not want to keep this key. Simply check this checkbox, all blank cells will be ignored by this add-in.
+
+<a name="importSchema"></a>
 ### Import Schema
 
 You can easily import schema for nested JSON output by simply clicking on "Browse" button and select the JSON file you are about to load.
 
 Once selected, the file will automaticlly be loaded.
 
-
+<a name="jsonOutput"></a>
 ### JSON Output
 
 There are several ways for you to save the generated JSON to your local computer.
