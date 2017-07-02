@@ -7,7 +7,7 @@ Excel add-in converting excel to json
 Excel-to-JSON is now available on Office Store. https://store.office.com/app.aspx?assetid=WA104380263
 
 # Documentation
-[https://docs.wtsolutions.cn](https://docs.wtsolutions.cn)
+[https://excel-to-json.wtsolutions.cn](https://excel-to-json.wtsolutions.cn)
 
 # Author
 he.yang @wtsolutions.cn

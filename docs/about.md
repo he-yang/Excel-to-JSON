@@ -1,2 +1,3 @@
 # About
-This project is started and maintained by [@he-yang](https://github.com/he-yang "@he-yang").
+Excel-to-JSON is an Excel add-in that convert Excel to JSON.
+Excel-to-JSON is maintained by he-yang@wtsolutions.cn from WTSolutions.

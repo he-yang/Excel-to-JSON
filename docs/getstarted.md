@@ -12,16 +12,12 @@ This add-in works with Excel 2013(or higher) and Excel Online.
 ### Get add-in
 
 * Get it from Office Store [link](https://store.office.com/app.aspx?assetid=WA104380263) https://store.office.com/app.aspx?assetid=WA104380263
-* Click on the above link and, in the top right corner, click Sign in.
-* Type the email address and password you use with Office/Microsoft.
-* Click on the “add” button after login.
-* The next page you will see will show that you have successfully added this add-in to your account.
-* Now go to Excel 2013/2016 or Excel Online.
-	* If you use Excel 2013/2016 , in the top right corner, click Sign in.
-		* Type the email address and password you use with Office/Microsoft。
-	* If you use Excel Online, login Excel Online using your Office/Microsoft account.
+* Click on the above link and, you will see the webpage of Excel-to-JSON on Office Store.
+* Click on the “add” button.
+* The next page you will see will show that you can open the add-in in Excel/Excel Online.
+* Now go to Excel 2013/2016 or Excel Online.	
 * Insert Tab > My Add-ins.
-* In the Add-ins for Office box, find “Excel-to-JSON”. If you don’t see it, verify that you’re signed into Office. Press Refresh to update the list.
+* In the Add-ins for Office box, find “Excel-to-JSON”. 
 * Double-click the add-in to start it.
 * Now you are ready to use this add-in.
  <a name="Useadd-in"></a> 

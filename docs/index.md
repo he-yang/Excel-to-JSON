@@ -2,7 +2,6 @@
 
 Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON.
 
-The code is open source, and [available on github](https://github.com/he-yang/excel-to-json).
 
 * [Get Started](getstarted.md)
 * [Usage](usage.md)
@@ -10,7 +9,7 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 * [Disclaimer](disclaimer.md)
 * [About](about.md)
 * [Contact](contact.md)
-* [Donate](donate.md)
+
 
 # Get Started
 * [Introduction](getstarted.md#Introduction)
@@ -40,8 +39,5 @@ The code is open source, and [available on github](https://github.com/he-yang/ex
 
 # Contact
 * [Contact](contact.md)
-
-# Donate
-* [Donate](donate.md)
 
 
