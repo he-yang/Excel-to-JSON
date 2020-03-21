@@ -6,7 +6,7 @@ Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON.
 * [Get Started](getstarted.md)
 * [Usage](usage.md)
 * [Privacy](privacy.md)
-* [Disclaimer](disclaimer.md)
+* [Terms of Use](termsofuse.md)
 * [About](about.md)
 * [Contact](contact.md)
 
@@ -31,8 +31,8 @@ Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON.
 # Privacy
 * [Privacy](privacy.md)
 
-# Disclaimer
-* [Disclaimer](disclaimer.md)
+# Terms of Use
+* [Terms of Use](termsofuse.md)
 
 # About
 * [About](about.md)
