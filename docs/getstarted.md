@@ -27,11 +27,9 @@ This add-in works with Excel 2013(or higher) and Excel Online.
 
 * Prepare your Excel sheet
 * Select data you'd like to convert
-* In the Excel-to-JSON add-in, check the conversion type you'd like to use
-	* Regarding conversion type, check [here](usage.md#Conversiontypes).
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
-* Later you can "copy+paste" / "copy to clipboard" / "save as" JSON and save it to your computer
+* Later you can "copy+paste" / "copy to clipboard" JSON and save it to your computer
 
 
 
