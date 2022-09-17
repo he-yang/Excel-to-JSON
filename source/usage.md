@@ -17,38 +17,15 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 
 **Example Excel sheet**
 
-<table class="table table-bordered table-striped table-condensed">
-<tr>
-	<th>Name</th>
-	<th>Age</th>
-	<th>Company</th>
-</tr>
-<tr>
-	<td>David</td>
-	<td>27</td>
-	<td>WTSolutions</td>
-</tr>
-<tr>
-	<td>Ton</td>
-	<td>26</td>
-	<td>WTSolutions</td>
-</tr>
-<tr>
-	<td>Kitty</td>
-	<td>30</td>
-	<td>Microsoft</td>
-</tr>
-<tr>
-	<td>Linda</td>
-	<td>30</td>
-	<td>Microsoft</td>
-</tr>
-<tr>
-	<td>Joe</td>
-	<td>40</td>
-	<td>Github</td>
-</tr>
-</table>
+
+|Name|Age|Company|
+|---|---|---|
+|David|27|WTSolutions|
+|Ton|26|WTSolutions|
+|Kitty|30|Microsoft|
+|Linda|30|Microsoft|
+|Joe|40|Github|
+
 
 **Example JSON**
 
