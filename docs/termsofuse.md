@@ -7,7 +7,7 @@ Excel-to-JSON or WTSolutions can’t be held responsible for any errors in the E
 
 
 ## Copyright
-Copyright © 2020 WTSolutions
+Copyright © 2022 WTSolutions
 
 
 ## Governing Law

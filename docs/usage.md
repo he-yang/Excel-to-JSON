@@ -1,5 +1,7 @@
 # Usage
 
+This documentation is written for Excel-to-JSON version 1.4.0.0
+
 Reading [Get Started](getstarted.md) section first is strongly recommended.
 
     Line break in an Excel cell will be rendered as <br>
