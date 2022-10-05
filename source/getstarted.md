@@ -31,7 +31,8 @@ This add-in works with Excel 2013(or higher) and Excel Online.
 * You will later see the converted JSON below the "Go" button
 * Later you can "copy+paste" / "copy to clipboard" JSON and save it to your computer
 
+Video Demonstration 
 
+<iframe src="//player.bilibili.com/player.html?aid=558694077&bvid=BV14e4y1z7qd&cid=852578185&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-
-
+[Video Link](https://www.bilibili.com/video/BV14e4y1z7qd/)
