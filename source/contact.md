@@ -1,3 +1,3 @@
 # Contact
 
-he.yang@wtsolutions.cn
+You can contact WTSolutions by sending email to he.yang@wtsolutions.cn

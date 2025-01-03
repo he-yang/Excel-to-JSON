@@ -13,9 +13,11 @@ Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON within
 
    getstarted.md
    usage.md
+   donation.md
    termsofuse.md
+   privacy.md
    about.md
    contact.md
-   donation.md
-   privacy.md
+   
+   
    
