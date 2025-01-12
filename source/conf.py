@@ -14,7 +14,12 @@ release = '1.5.0.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+
+extensions = ['myst_parser','sphinx_sitemap']
+html_baseurl = 'https://excel-to-json.wtsolutions.cn/en/latest/'
+sitemap_url_scheme = "{link}"
+html_extra_path = ['robots.txt']
+
 
 templates_path = ['_templates']
 exclude_patterns = []
