@@ -10,11 +10,11 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365.
 ## Quick Started
  <a name="Getadd-in"></a> 
 ### Get add-in
-* Open a new datasheet in Excel 2013/2016, Excel Online or Office365.	
-* Insert Tab or Home Tab> Add-ins.
+* Open a new datasheet in Excel 2013/2016 or higher, Excel Online or Office 365.	
+* **Insert** Tab or **Home** Tab> Add-ins.
 * In the Add-ins search box, search for “Excel-to-JSON”. 
 * Click the add-in to start it.
-* You would see a "Excel-to-JSON" tab added to your Excel. Now you are ready to use this add-in.
+* You would see a "Excel-to-JSON" button added to your Excel **Home** Tab. Now you are ready to use this add-in.
  <a name="Useadd-in"></a> 
 ### Use add-in
 
@@ -22,6 +22,7 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365.
 
 * Prepare your Excel sheet
 * Select data you'd like to convert
+* Choose Mode: Flat or Nested JSON mode
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
 * Later you can "copy+paste" / "copy to clipboard" JSON and save it to your computer
