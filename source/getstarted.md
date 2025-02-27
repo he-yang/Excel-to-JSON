@@ -31,3 +31,12 @@ Video Demonstration
 <iframe src="//player.bilibili.com/player.html?aid=558694077&bvid=BV14e4y1z7qd&cid=852578185&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 [Video Link](https://www.bilibili.com/video/BV14e4y1z7qd/)
+
+## Dependencies
+* Bootstrap
+* Jquery
+* flat
+* sweetalert
+* jquery.json-viewer
+* clipboard
+* jsonlint

@@ -1,10 +1,11 @@
 # Usage
 
-This documentation is written for Excel-to-JSON version 1.5.0.0
+This documentation is written for Excel-to-JSON version 2.0.0
 
 Reading [Get Started](getstarted.md) section first is strongly recommended.
 
     Line break in an Excel cell will be rendered as <br>
+
  <a name="Conversiontypes"></a> 
 ## Conversion
 
@@ -15,7 +16,17 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 * The first row will be interpreted as header.
 * The following rows will be mapped with header as you can see in the following example.
 
-**Example Excel sheet**
+## Conversion Mode
+* Flat JSON mode
+    * Simply convert Excel datasheet to a flat JSON.
+* Nested JSON mode
+    * First convert Excel datasheet to a flat JSON
+    * then, unflatten an object with delimited keys using "Flat" [https://www.npmjs.com/package/flat](https://www.npmjs.com/package/flat)
+    * unflatten() is called by Excel-to-JSON, with delimiter as ".", overwrite as true.
+
+## Examples
+
+**Example Excel sheet 1**
 
 
 |Name|Age|Company|
@@ -26,6 +37,7 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 |Linda|30|Microsoft|
 |Joe|40|Github|
 
+> Using Flat JSON mode
 
 **Example JSON**
 
@@ -59,6 +71,62 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 ]
 ```
 
+**Example Excel sheet 2**
+
+|id|student.name|student.familyname|student.age|
+|---|---|---|---|
+|1|Meimei|Han|12|
+|2|Lily|Jaskson|15|
+|3|Elon|Mask|18|
+
+> Using Flat JSON Mode
+
+```json
+[{
+	"id": 1,
+	"student.name": "Meimei",
+	"student.familyname": "Han",
+	"student.age": 12
+}, {
+	"id": 2,
+	"student.name": "Lily",
+	"student.familyname": "Jaskson",
+	"student.age": 15
+}, {
+	"id": 3,
+	"student.name": "Elon",
+	"student.familyname": "Mask",
+	"student.age": 18
+}]
+```
+
+> Using Nested JSON mode
+
+```json
+[{
+	"id": 1,
+	"student": {
+		"name": "Meimei",
+		"familyname": "Han",
+		"age": 12
+	}
+}, {
+	"id": 2,
+	"student": {
+		"name": "Lily",
+		"familyname": "Jaskson",
+		"age": 15
+	}
+}, {
+	"id": 3,
+	"student": {
+		"name": "Elon",
+		"familyname": "Mask",
+		"age": 18
+	}
+}]
+
+```
 
 
 <a name="jsonOutput"></a>
