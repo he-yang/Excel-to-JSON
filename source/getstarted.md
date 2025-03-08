@@ -15,6 +15,20 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365.
 * In the Add-ins search box, search for “Excel-to-JSON”. 
 * Click the add-in to start it.
 * You would see a "Excel-to-JSON" button added to your Excel **Home** Tab. Now you are ready to use this add-in.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8772217510669640"
+     data-ad-slot="2653271427"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
  <a name="Useadd-in"></a> 
 ### Use add-in
 

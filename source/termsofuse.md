@@ -17,6 +17,18 @@ To use the Excel-to-JSON Service, you must:
 - Ensure that your version of Microsoft Excel is compatible with the Excel-to-JSON add-in.
 - Provide accurate and complete information when registering for or using the Service.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8772217510669640"
+     data-ad-slot="2653271427"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 4. License and Restrictions
 
 We grant you a limited, non-exclusive, non-transferable, revocable license to use the Excel-to-JSON add-in solely for your personal or internal business purposes. You agree not to:
