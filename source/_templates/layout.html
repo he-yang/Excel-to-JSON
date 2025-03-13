@@ -1,0 +1,22 @@
+{% extends "!layout.html" %}
+
+{% block htmltitle %}
+    {{ super() }}
+    <!-- 添加自定义的 meta 标签 -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Excel to JSON",
+          "description": "A Microsoft Excel add-in that converts Excel spreadsheets into JSON format directly within Excel. Ideal for developers and data analysts.",
+          "applicationCategory": "Data Conversion",
+          "operatingSystem": "Web"
+        }
+    </script>
+    <meta name="description"
+        content="Excel add-in Excel-to-JSON Convert Excel to JSON within Excel (web online, windows, mac, linux) Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON within Excel. Both flat and nested JSON can be converted using Excel-to-JSON add-in.
+        This add-in is available at the Microsoft store- Appsource, which can be accessed within Excel, so it does not require any download, a simple click within Excel would run the add-in.">
+    <meta name="keywords"
+        content="excel-to-json, json-to-excel, excel to json, json to excel, json, excel, conversion, mac, windows, transfer, spreadsheets, microsoft, add-in, web, online">
+    <link rel="icon" href="https://t.wtsolutions.cn/favicon.ico">
+{% endblock %}
