@@ -1,10 +1,10 @@
 # Usage
 
-This documentation is written for Excel-to-JSON version 2.0.0
+This documentation is written for Excel-to-JSON version 2.1.0
 
 Reading [Get Started](getstarted.md) section first is strongly recommended.
 
-    Line break in an Excel cell will be rendered as <br>
+    Line break in an Excel cell will be rendered as `\n`
 
  <a name="Conversiontypes"></a> 
 ## Conversion
@@ -22,7 +22,7 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 * Nested JSON mode
     * First convert Excel datasheet to a flat JSON
     * then, unflatten an object with delimited keys using "Flat" [https://www.npmjs.com/package/flat](https://www.npmjs.com/package/flat)
-    * unflatten() is called by Excel-to-JSON, with delimiter as ".", overwrite as true.
+    * unflatten() is called by Excel-to-JSON, with delimiter as ".", overwrite as true. If you have subscribed "Pro Features", you can set other delimeters.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -148,3 +148,13 @@ There are several ways for you to save the generated JSON to your local computer
 
 * Copy and Paste. Once JSON generated, you will see them in the add-in, and you can simply copy and paste them anywhere you want.
 * Copy to Clipboard.(Not applicable to Mac users) Once JSON generated, you can find the "Copy to Clipboard" button, click on the button, and you will have JSON on your clipboard.
+
+## Pro Features
+Excel-to-JSON offers Pro Features for users with a valid subscription:
+
+* **Nested Delimiter**: Supports custom delimiters (/, _, .) for nested JSON keys
+* **Empty Cell Handling**: Three options for empty cells: empty string "", JSON null, or exclude
+* **Boolean Format**: Three boolean conversion formats: JSON true/false, string "true"/"false", or number 1/0
+* **Date Format**: Date conversion options: days since 1990-01-01 or ISO 8601 string format
+
+Details of Pro Features can be found in [Pro Features](profeatures.md) section.

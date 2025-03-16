@@ -1,0 +1,225 @@
+# Pro Features
+
+The Excel-to-JSON add-in offers a set of pro features that enhance the functionality of the add-in. These features are only available to users who have subscribed the add-in.
+
+## Subscription
+
+7 days free trial, then 21.8 HKD/month for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged.
+
+Each Pro Code can offer 10 devices to acess Pro Features. 
+
+Subscribe through Stripe, here [https://buy.stripe.com/8wM3cfcXd0Vp7iUfYY](https://buy.stripe.com/8wM3cfcXd0Vp7iUfYY)
+
+For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
+
+## Pro Code
+
+Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
+
+## Nested Delimeter
+
+The Nested Delimeter specifies how to separate nested keys in Nested JSON Mode. The default delimiter is a dot (.).
+
+You can also use other delimiters like:
+- Forward slash (/)
+- Underscore (_) 
+- Dot (.)
+
+For example, using underscore (_) as delimiter:
+
+|id|<mark>student_name</mark>|student_familyname|student_age|
+|---|---|---|---|
+|1|Meimei|Han|12|
+|2|Lily|Jaskson|15|
+
+Using Dot(.) as delimiter:
+|id|<mark>student.name</mark>|student.familyname|student.age|
+|---|---|---|---|
+|1|Meimei|Han|12|
+|2|Lily|Jaskson|15|
+
+Using Forward Slash(/) as delimiter:
+|id|<mark>student/name</mark>|student/familyname|student/age|
+|---|---|---|---|
+|1|Meimei|Han|12|
+|2|Lily|Jaskson|15|
+
+Will generate:
+
+> Using Nested JSON mode with delimiter "_", ".", "/" respectively.
+
+```json
+[{
+    "id": 1,
+    "student": {
+        "name": "Meimei",
+        "familyname": "Han",
+        "age": 12
+    }
+}, {
+    "id": 2,
+    "student": {
+        "name": "Lily",
+        "familyname": "Jaskson",
+        "age": 15
+    }
+}]
+```
+## Empty Cell
+
+The Empty Cell option handles empty cells in Excel with three approaches:
+
+1. `empty string ""`: Converts empty cells to empty strings `""`
+2. `JSON null`: Converts empty cells to `null`
+3. `not include in JSON`: Excludes empty cells from JSON
+
+**Example Excel sheet**
+
+|Name|Age|Company|
+|---|---|---|
+|David|27|WTSolutions|
+|Ton||Microsoft|
+
+> Using Empty Cell = "null"
+
+```json
+[{
+    "Name": "David",
+    "Age": 27,
+    "Company": "WTSolutions"
+}, {
+    "Name": "Ton",
+    // see here
+    "Age": null,
+    "Company": "Microsoft"
+}]
+```
+> Using Empty Cell = "empty string"
+```json
+[{
+    "Name": "David",
+    "Age": 27,
+    "Company": "WTSolutions"
+}, {
+    "Name": "Ton",
+    // see here
+    "Age": "",
+    "Company": "Microsoft"
+}]
+```
+> Using Empty Cell = "not include in JSON"
+```json
+    "Name": "David",
+    "Age": 27,
+    "Company": "WTSolutions"
+}, {
+    "Name": "Ton",
+    // see here
+    "Company": "Microsoft"
+}]
+```
+
+## Boolean Format
+
+The Boolean Format specifies how to convert boolean values in Excel:
+
+1. `JSON true/false`: Converts to JSON boolean values (`true` or `false`)
+2. `String "true"/"false"`: Converts to strings (`"true"` or `"false"`)
+3. `Number 1/0`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`)
+
+**Example Excel sheet**
+
+|Name|IsStudent|IsEmployed|
+|---|---|---|
+|David|TRUE|FALSE|
+|Ton|FALSE|TRUE|
+
+> Using Boolean Format = "JSON true/false"
+
+```json
+[{
+    "Name": "David",
+    // see here
+    "IsStudent": true,
+    "IsEmployed": false
+}, {
+    "Name": "Ton",
+    "IsStudent": false,
+    "IsEmployed": true
+}]
+```
+> Using Boolean Format = "String "true"/"false""
+```json
+[{
+    "Name": "David",
+    // see here
+    "IsStudent": "true",
+    "IsEmployed": "false"
+}, {
+    "Name": "Ton",
+    "IsStudent": "false",
+    "IsEmployed": "true"
+}]
+```
+> Using Boolean Format = "Number 1/0"
+```json
+[{
+    "Name": "David",
+    // see here
+    "IsStudent": 1,
+    "IsEmployed": 0
+}, {
+    "Name": "Ton",
+    "IsStudent": 0,
+    "IsEmployed": 1
+}]
+```
+
+## Date Format
+
+The Date Format specifies how to convert date values in Excel:
+
+1. `Number of Days from 1990-01-01`: Converts to number of days since 1990-01-01
+2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string
+
+> Note: The Date Format feature only work, if you add $date$ as surfix in your Excel Datasheet first row.
+> For instance, if you want to convert the Birthday column to ISO8601 format, you should add $date$ as surfix in the column header, see example below.
+
+**Example Excel sheet**
+
+|Name|<mark>Birthday$date$</mark>|
+|---|---|
+|David|1990-01-01|
+|Ton|1995-05-15|
+
+> Using Date Format = "Number of Days from 1990-01-01"
+
+```json
+[{
+    "Name": "David",
+    "Birthday": 1
+}, {
+    "Name": "Ton",
+    // see here
+    "Birthday": 34834
+}]
+```
+> Using Date Format = "String, ISO 8601 (> Using Date Format = "String, ISO 8601 (ssZ)"
+```json
+[{
+    "Name": "David",
+    "Birthday": "1990-01-01T00:00:00.000Z"
+}, {
+    "Name": "Ton",
+    // see here
+    "Birthday": "1995-05-15T00:00:00.000Z"
+}]
+```
+
+## More features
+
+If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
+
+## Aftersale services
+
+You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.

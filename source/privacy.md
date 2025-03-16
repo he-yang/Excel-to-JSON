@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Effective Date:** 2025-3-8
-**Last Revised**: 2025-3-8
+**Effective Date:** 2025-3-16
+**Last Revised**: 2025-3-16
 
 ## 1. Introduction
 
@@ -32,21 +32,30 @@ We want to assure you that:
 - **We do not transmit your data over the internet**. All data processing occurs locally within your Microsoft Excel environment.
 - **We do not access, collect, or use any personal or sensitive information** from your Excel files.
 
-## 4. How the Service Works
+## 4. Data We Collect for Subscription Management
+
+For Pro feature subscriptions, we collect and store:
+- Your name and contact information for subscription management purposes.
+- Payment information (processed by our secure payment gateway Stripe)
+- Subscription status and billing history
+- Usage data related to Pro features for service improvement
+
+## 5. How the Service Works
 
 The **Excel-to-JSON** Service operates entirely within your local Microsoft Excel application. When you use the Service:
 - Your Excel data is processed locally on your device.
 - The conversion from Excel to JSON is performed within your Microsoft Excel environment.
-- No data is sent to our servers or any third-party servers.
+- No data is sent to our servers, except your Pro Code for Pro Features.
 
-## 5. Your Responsibilities
+## 6. Your Responsibilities
 
 While we take steps to ensure your data remains private, you are responsible for:
 - Ensuring the security of your Microsoft Excel software and the device on which you use the Service.
 - Managing and protecting any sensitive or confidential data within your Excel files.
 - Complying with applicable data protection laws and regulations.
+- Maintaining the accuracy of your billing information and promptly updating any changes.
 
-## 6. Third-Party Services
+## 7. Third-Party Services
 
 The **Excel-to-JSON** Service integrates with **Cloudflare Web Analytics** to collect anonymized usage data about how users interact with our website. This helps us improve the performance and user experience of our Service. 
 
@@ -82,11 +91,11 @@ Google AdSense collects the following information to provide personalized advert
 
  For more information about how Google uses data, please visit [Google's Privacy & Terms](https://policies.google.com/privacy).
 
-## 7. Changes to This Privacy Policy
+## 8. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. Any changes will be effective immediately upon posting the revised policy on our website. Your continued use of the Service after any changes constitutes your acceptance of the updated Privacy Policy.
 
-## 8. Contact Us
+## 9. Contact Us
 
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
