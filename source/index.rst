@@ -18,7 +18,6 @@ This add-in is available at the Microsoft store- Appsource, which can be accesse
    profeatures.md
    termsofuse.md
    privacy.md
-   about.md
    contact.md
    
    
