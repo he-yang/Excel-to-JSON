@@ -4,11 +4,21 @@ The Excel-to-JSON add-in offers a set of pro features that enhance the functiona
 
 ## Subscription
 
-7 days free trial, then 21.8 HKD/month for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged.
+7 days free trial, then you will be charged monthly at one of the following rates for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
+- USD US$2.66 / month,
+- CNY ¥19.90 / month,
+- EUR €2.36 / month,
+- HKD HK$21.80 / month
+- Your local currency, if Stripe supports it.
 
-Each Pro Code can offer 10 devices to acess Pro Features. 
+Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
-Subscribe through Stripe, here [https://buy.stripe.com/8wM3cfcXd0Vp7iUfYY](https://buy.stripe.com/8wM3cfcXd0Vp7iUfYY)
+Subscribe through Stripe, here [https://buy.stripe.com/00gdQT2iz0Vp32E002](https://buy.stripe.com/00gdQT2iz0Vp32E002)
+Payment method:
+- Bank Card (Visa, Mastercard, American Express, JCB, 银联)
+- Apple Pay (needs to open the above link using your Apple/IOS/Mac Device)
+- Google Pay (needs to open the above link using your Google/Andriod Device)
+- Link
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
