@@ -16,6 +16,9 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365, Excel fo
 * Click the add-in to start it.
 * You would see a "Excel-to-JSON" button added to your Excel **Home** Tab. Now you are ready to use this add-in.
 
+### Video Guide to Get add-in
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tN6lFjjhRfM?si=Yeypz-TplPjX1sWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -42,6 +45,9 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365, Excel fo
 * You will later see the converted JSON below the "Go" button
 * Later you can "copy+paste" / "copy to clipboard" JSON and save it to your computer
 
+### Video Guide to Use add-in
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hvj-O5aIzD0?si=yQdYvZkeKM6hMj6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Dependencies
 * [Bootstrap](https://github.com/twbs/bootstrap) - [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
