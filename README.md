@@ -2,6 +2,8 @@
 
 [![Documentation Status](https://readthedocs.org/projects/excel-to-json/badge/?version=latest)](http://excel-to-json.readthedocs.io/en/latest/?badge=latest)
 
+[简体中文](https://github.com/he-yang/Excel-to-JSON-zh-CN)
+
 Excel add-in converting excel to json
 
 Excel-to-JSON is now available on Microsoft Appsource (formerly known as Office Store). https://store.office.com/app.aspx?assetid=WA104380263

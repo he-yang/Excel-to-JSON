@@ -10,7 +10,7 @@ This add-in is available at the Microsoft store- Appsource, which can be accesse
 
 This is the English version of the documentation, for Simplified Chinese version https://excel-to-json.wtsolutions.cn/zh-cn/latest/
 
-当前为英文版文档，中文版详见https://excel-to-json.wtsolutions.cn/zh-cn/latest/
+当前为英文版文档，中文版详见 https://excel-to-json.wtsolutions.cn/zh-cn/latest/
 
 
 
