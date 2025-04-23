@@ -1,5 +1,7 @@
 # Usage
 
+[中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/usage.html)
+
 This documentation is written for Excel-to-JSON version 2.1.0
 
 Reading [Get Started](getstarted.md) section first is strongly recommended.

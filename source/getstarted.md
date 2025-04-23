@@ -1,5 +1,7 @@
 # Get Started
  <a name="Introduction"></a> 
+[中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/getstarted.html)
+
 ## Introduction
 
 Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON.

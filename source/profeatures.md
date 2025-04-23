@@ -1,5 +1,7 @@
 # Pro Features
 
+[中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/profeatures.html)
+
 The Excel-to-JSON add-in offers a set of pro features that enhance the functionality of the add-in. These features are only available to users who have subscribed the add-in.
 
 ## Subscription
