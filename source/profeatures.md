@@ -15,6 +15,8 @@ The Excel-to-JSON add-in offers a set of pro features that enhance the functiona
 
 Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
+Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) add-in provided by WTSolutions.
+
 Subscribe through Stripe, here [https://buy.stripe.com/00gdQT2iz0Vp32E002](https://buy.stripe.com/00gdQT2iz0Vp32E002)
 Payment method:
 - Bank Card (Visa, Mastercard, American Express, JCB, 银联)
