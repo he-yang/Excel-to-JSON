@@ -196,7 +196,7 @@ The Date Format specifies how to convert date values in Excel:
 1. `Number of Days from 1900-01-01`: Converts to number of days since 1900-01-01
 2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string
 
-> Note: The Date Format feature only work, if you add $date$ as surfix in your Excel Datasheet first row.
+> <mark> Note: The Date Format feature only work, if you add $date$ as suffix in your Excel Datasheet first row. Refer to the subsequent example header row. </mark>
 > Note: Excel can not render Dates before 1900-01-01 as Date format, so you may find that cell be interpreted as String format.
 > For instance, if you want to convert the Birthday column to ISO8601 format, you should add $date$ as surfix in the column header, see example below.
 
