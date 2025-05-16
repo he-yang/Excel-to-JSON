@@ -231,6 +231,28 @@ The Date Format specifies how to convert date values in Excel:
 }]
 ```
 
+## Save As Filename
+
+The Save As Filename feature allows you to specify a custom filename for your JSON output file，when you click on the "Save As" botton after the conversion. When you enter a filename in this field, the converted JSON data will be saved with your specified name instead of the default name(excel-to-json.json).
+
+**Filename Requirements:**
+- Maximum length: 200 characters (excluding extension)
+- File extension will be automatically set to .json
+- Cannot start or end with dots (.) or spaces
+- Cannot use Windows reserved names (e.g., CON, PRN, AUX, etc.)
+- Cannot contain the following characters: < > : \ / | ? *
+
+**Example:**
+- Valid filenames: data.json, my_data.json, export_2024.json
+- Invalid filenames: .data.json, con.json, my:data.json
+
+**Support Platforms:**
+- Excel on Windows, yes
+- Web version of Excel on Office.com or Onedrive, yes
+- Excel for Mac, not supported
+  - If you are a Mac user, you can use Web version of Excel on Office.com or Onedrive.
+
+
 ## More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn

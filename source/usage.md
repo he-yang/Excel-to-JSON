@@ -2,7 +2,7 @@
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/usage.html)
 
-This documentation is written for Excel-to-JSON version 2.1.0
+This documentation is written for Excel-to-JSON version 2.1.1
 
 Reading [Get Started](getstarted.md) section first is strongly recommended.
 
@@ -152,8 +152,9 @@ Reading [Get Started](getstarted.md) section first is strongly recommended.
 
 There are several ways for you to save the generated JSON to your local computer.
 
-* Copy and Paste. Once JSON generated, you will see them in the add-in, and you can simply copy and paste them anywhere you want.
-* Copy to Clipboard.(Not applicable to Mac users) Once JSON generated, you can find the "Copy to Clipboard" button, click on the button, and you will have JSON on your clipboard.
+* Copy and Paste. Once JSON generated, you will see them in a textarea, and you can simply copy and paste them anywhere you want.
+* Copy to Clipboard. Once JSON generated, you can find the "Copy to Clipboard" button, click on the button, and you will have JSON on your clipboard.
+* Save to File.(Not available to Mac users) Once JSON generated, you can find the "Save As" button, click on the button, and you will be prompted to save the JSON to a file.
 
 ## Pro Features
 Excel-to-JSON offers Pro Features for users with a valid subscription:
@@ -162,5 +163,6 @@ Excel-to-JSON offers Pro Features for users with a valid subscription:
 * **Empty Cell Handling**: Three options for empty cells: empty string "", JSON null, or exclude
 * **Boolean Format**: Three boolean conversion formats: JSON true/false, string "true"/"false", or number 1/0
 * **Date Format**: Date conversion options: days since 1990-01-01 or ISO 8601 string format
+* **Save As Filename**: Customize the output filename for the JSON file
 
 Details of Pro Features can be found in [Pro Features](profeatures.md) section.

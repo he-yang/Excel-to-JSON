@@ -45,7 +45,7 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365, Excel fo
 * If you have subscribed "Pro Features", you can set more options
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
-* Later you can "copy+paste" / "copy to clipboard" JSON and save it to your computer
+* Later you can "copy+paste" / "copy to clipboard" /"Save As" JSON and save it to your computer
 
 ### Video Guide to Use add-in
 
