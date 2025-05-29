@@ -30,9 +30,9 @@ For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
 Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
 
-## Nested Delimeter
+## Nested JSON Key Delimeter
 
-The Nested Delimeter specifies how to separate nested keys in Nested JSON Mode. The default delimiter is a dot (.).
+The Nested JSON Key Delimeter specifies how to separate nested keys in Nested JSON Mode. The default delimiter is a dot (.).
 
 You can also use other delimiters like:
 - Forward slash (/)
@@ -79,7 +79,7 @@ Will generate:
     }
 }]
 ```
-## Empty Cell
+## Output Format for Empty Cell
 
 The Empty Cell option handles empty cells in Excel with three approaches:
 
@@ -133,7 +133,7 @@ The Empty Cell option handles empty cells in Excel with three approaches:
 }]
 ```
 
-## Boolean Format
+## Output Format for Boolean Values
 
 The Boolean Format specifies how to convert boolean values in Excel:
 
@@ -189,7 +189,7 @@ The Boolean Format specifies how to convert boolean values in Excel:
 }]
 ```
 
-## Date Format
+## Output Format for Date Format values
 
 The Date Format specifies how to convert date values in Excel:
 
@@ -229,6 +229,38 @@ The Date Format specifies how to convert date values in Excel:
     // see here
     "Birthday": "1995-05-15T00:00:00.000Z"
 }]
+```
+
+
+## Output Format for Single Object JSON 
+
+The option specifies how to perserve single object JSON, when there is only one object in the converted JSON:
+
+1. `Array []`: Converts to an array of one object
+2. `Object {}`: Converts to one object
+
+> Note: The feature only work, when there is only one object in the converted JSON.
+
+**Example Excel sheet**
+
+|Name|Age|
+|---|---|
+|David|20|
+
+> Using "Array []"
+
+```json
+[{
+    "Name": "David",
+    "Age": 20
+}]
+```
+> Using "Object {}"
+```json
+{
+    "Name": "David",
+    "Age": 20
+}
 ```
 
 ## Save As Filename

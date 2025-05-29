@@ -2,7 +2,7 @@
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/usage.html)
 
-This documentation is written for Excel-to-JSON version 2.1.1
+This documentation is written for Excel-to-JSON version 2.3.0
 
 Reading [Get Started](getstarted.md) section first is strongly recommended.
 
@@ -163,6 +163,7 @@ Excel-to-JSON offers Pro Features for users with a valid subscription:
 * **Empty Cell Handling**: Three options for empty cells: empty string "", JSON null, or exclude
 * **Boolean Format**: Three boolean conversion formats: JSON true/false, string "true"/"false", or number 1/0
 * **Date Format**: Date conversion options: days since 1990-01-01 or ISO 8601 string format
+* **Single Object JSON Format**: Generate a single JSON object or an array of one object
 * **Save As Filename**: Customize the output filename for the JSON file
 
 Details of Pro Features can be found in [Pro Features](profeatures.md) section.
