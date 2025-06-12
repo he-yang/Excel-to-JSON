@@ -1,6 +1,6 @@
 # Service Agreement
 
-**Effective Date:** 2025-3-16
+**Effective Date:** 2025-6-11
 
 ## 1. Introduction
 
@@ -8,13 +8,13 @@ Welcome to the Excel-to-JSON service ("Service"). This Service Agreement ("Agree
 
 ## 2. Description of Service
 
-The Excel-to-JSON Service is a Microsoft Excel add-in that allows users to convert Excel files into JSON format. The Service is designed to facilitate the conversion of data from Excel spreadsheets into JSON, which can be used for various applications, including web development, data interchange, and more.
+The Excel-to-JSON Service is a Microsoft Excel add-in or Web application that allows users to convert Excel files into JSON format. The Service is designed to facilitate the conversion of data from Excel spreadsheets into JSON, which can be used for various applications, including web development, data interchange, and more.
 
 ## 3. User Requirements
 
 To use the Excel-to-JSON Service, you must:
-- Have a valid and licensed copy of Microsoft Excel installed on your computer.
-- Ensure that your version of Microsoft Excel is compatible with the Excel-to-JSON add-in.
+- Have a valid and licensed copy of Microsoft Excel installed on your computer if you choose to sideload this service in Excel.
+- Ensure that your version of Microsoft Excel is compatible with the Excel-to-JSON add-in if you choose to sideload this service in Excel.
 - Provide accurate and complete information when registering for or using the Service.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
@@ -51,12 +51,12 @@ The Pro features of Excel-to-JSON are available through a monthly subscription. 
 
 You are solely responsible for:
 - Ensuring that you have the necessary rights to the data you convert using the Service.
-- Maintaining the security of your Microsoft Excel software and any data processed through the Service.
+- Maintaining the security of your Microsoft Excel software or web browser and any data processed through the Service.
 - Complying with all applicable laws and regulations in your use of the Service.
 
 ## 7. Data Privacy
 
-We are committed to protecting your privacy. Your data from Excel file processed through the Excel-to-JSON Service will not be stored, shared, or used by us for any purpose other than providing the Service. For subscription management, we collect and store necessary billing information in accordance with our Privacy Policy. However, you acknowledge that the Service operates within the Microsoft Excel environment, and you are responsible for understanding and managing the privacy settings of your Excel software.
+We are committed to protecting your privacy. Your Excel data processed through the Excel-to-JSON Service will not be stored, shared, or used by us for any purpose other than providing the Service. For subscription management, we collect and store necessary billing information in accordance with our Privacy Policy. However, you acknowledge that the Service operates within the Microsoft Excel environment, and you are responsible for understanding and managing the privacy settings of your Excel software.
 
 ## 8. Disclaimer of Warranties
 

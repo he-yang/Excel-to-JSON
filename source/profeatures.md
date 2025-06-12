@@ -1,10 +1,10 @@
-# Pro Features
+# 5. Pro Features
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
 The Excel-to-JSON add-in offers a set of pro features that enhance the functionality of the add-in. These features are only available to users who have subscribed the add-in.
 
-## Subscription, Payment and Cancellation
+## 5.1 Subscription, Payment and Cancellation
 
 7 days free trial, then you will be charged monthly at one of the following rates for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
 - USD US$2.66 / month,
@@ -35,18 +35,18 @@ You can cancel your subscription at any time. After the current billing cycle en
 
 [https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
 
-## Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
+## 5.2 Pro Features
 
-## Nested JSON Key Delimeter
+### Nested JSON Key Delimeter
 
 The Nested JSON Key Delimeter specifies how to separate nested keys in Nested JSON Mode. The default delimiter is a dot (.).
 
 You can also use other delimiters like:
-- Forward slash (/)
-- Underscore (_) 
-- Dot (.)
+- `Dot (.)`
+- `Underscore (_)` [Pro Feature]
+- `Double Underscore (__)` [Pro Feature]
+- `Forward Slash(/)` [Pro Feature]
 
 For example, using underscore (_) as delimiter:
 
@@ -88,13 +88,13 @@ Will generate:
     }
 }]
 ```
-## Output Format for Empty Cell
+### Output Format for Empty Cell
 
 The Empty Cell option handles empty cells in Excel with three approaches:
 
 1. `empty string ""`: Converts empty cells to empty strings `""`
-2. `JSON null`: Converts empty cells to `null`
-3. `not include in JSON`: Excludes empty cells from JSON
+2. `JSON null`: Converts empty cells to `null` [Pro Feature]
+3. `not include in JSON`: Excludes empty cells from JSON [Pro Feature]. This option is not available in 2DArray format output JSON.
 
 **Example Excel sheet**
 
@@ -142,13 +142,13 @@ The Empty Cell option handles empty cells in Excel with three approaches:
 }]
 ```
 
-## Output Format for Boolean Values
+### Output Format for Boolean Values
 
 The Boolean Format specifies how to convert boolean values in Excel:
 
 1. `JSON true/false`: Converts to JSON boolean values (`true` or `false`)
-2. `String "true"/"false"`: Converts to strings (`"true"` or `"false"`)
-3. `Number 1/0`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`)
+2. `String "true"/"false"`: Converts to strings (`"true"` or `"false"`) [Pro Feature]
+3. `Number 1/0`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`) [Pro Feature]
 
 **Example Excel sheet**
 
@@ -198,12 +198,13 @@ The Boolean Format specifies how to convert boolean values in Excel:
 }]
 ```
 
-## Output Format for Date Format values
+### Output Format for Date Format values
+This feature allows you to convert date values in Excel to a specific format, such as ISO 8601 or number of days from 1900-01-01. It is not avalible when you load Excel to JSON in web browser. If you want to convert date values in Excel to a specific format, you can sideload Excel to JSON in Excel application.
 
 The Date Format specifies how to convert date values in Excel:
 
 1. `Number of Days from 1900-01-01`: Converts to number of days since 1900-01-01
-2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string
+2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string [Pro Feature]
 
 > <mark> Note: The Date Format feature only work, if you add $date$ as suffix in your Excel Datasheet first row. Refer to the subsequent example header row. </mark>
 > Note: Excel can not render Dates before 1900-01-01 as Date format, so you may find that cell be interpreted as String format.
@@ -240,15 +241,51 @@ The Date Format specifies how to convert date values in Excel:
 }]
 ```
 
+### Output Format for JSON
 
-## Output Format for Single Object JSON 
+There are two options for you to present output JSON:
+1. `Array of object`
+2. `2D Array` [Pro Feature]
+
+**Example Excel sheet**
+
+|Name|Age|Company|
+|---|---|---|
+|David|27|WTSolutions|
+|Ton|25|Microsoft|
+
+> Using "Array of object" option.
+
+```json
+[{
+    "Name": "David",
+    "Age": 27,
+    "Company": "WTSolutions"        
+},
+{
+    "Name": "Ton",
+    "Age": 25,
+    "Company": "Microsoft"  
+}
+]
+```
+> Using "2D Array" option.
+```json
+[
+    ["Name", "Age", "Company"]
+    ["David", 27, "WTSolutions"],
+    ["Ton", 25, "Microsoft"]
+]
+```
+
+### Output Format for Single Object JSON 
 
 The option specifies how to perserve single object JSON, when there is only one object in the converted JSON:
 
 1. `Array []`: Converts to an array of one object
-2. `Object {}`: Converts to one object
+2. `Object {}`: Converts to one object [Pro Feature]
 
-> Note: The feature only work, when there is only one object in the converted JSON.
+> Note: The feature only work, when there is only one object in the converted JSON, and the output format for JSON is Array of Object.
 
 **Example Excel sheet**
 
@@ -272,7 +309,7 @@ The option specifies how to perserve single object JSON, when there is only one 
 }
 ```
 
-## Save As Filename
+### Filename at SaveAs
 
 The Save As Filename feature allows you to specify a custom filename for your JSON output file，when you click on the "Save As" botton after the conversion. When you enter a filename in this field, the converted JSON data will be saved with your specified name instead of the default name(excel-to-json.json).
 
@@ -294,10 +331,14 @@ The Save As Filename feature allows you to specify a custom filename for your JS
   - If you are a Mac user, you can use Web version of Excel on Office.com or Onedrive.
 
 
-## More features
+## 5.3 More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## Aftersale services
+## 5.4 Pro Code
+
+Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
+
+## 5.5 Aftersale services
 
 You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.

@@ -1,24 +1,44 @@
-# Get Started
+# 1. Get Started
  <a name="Introduction"></a> 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/getstarted.html)
 
-## Introduction
+Excel to JSON by WTSolutions is a **Microsoft Excel add-in** or **Web Application** which can convert Excel to JSON, both Flat and Nested JSON can be converted.
 
-Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON.
- <a name="Requirements"></a> 
-## Requirements
-This add-in works with Excel 2013(or higher), Excel Online, Office 365, Excel for Mac.
- <a name="Quickstarted"></a> 
-## Quick Started
- <a name="Getadd-in"></a> 
-### Get add-in
-* Open a new datasheet in Excel 2013/2016 or higher, Excel Online or Office 365 etc.	
-* **Insert** Tab or **Home** Tab> Add-ins.
-* In the Add-ins search box, search for “Excel-to-JSON”. 
-* Click the add-in to start it.
-* You would see a "Excel-to-JSON" button added to your Excel **Home** Tab. Now you are ready to use this add-in.
 
-### Video Guide to Get add-in
+# 2. Requirements
+ <a name="Requirements"></a>
+`Option 1. Load Excel to JSON in Web Browser`
+* A web browser that supports JavaScript, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge.
+
+`Option 2. Side-load Excel to JSON in Excel` (recommended)
+* Excel 2013 Service Pack 1 or later, 
+* Excel 2016 for Mac, 
+* Excel 2016 or later, 
+* Excel Online, 
+* Office 365 etc.
+
+
+# 3. Quick Start
+<a name="Quickstarted"></a> 
+This quick start is for v 3.0.0
+
+
+## 3.1 (Side-)Load Excel to JSON
+
+`Option 1. Load Excel to JSON in Web Browser`
+* Open a web browser that supports JavaScript, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge.
+* Open the following URL in your web browser: <a href="https://s.wtsolutions.cn/excel-to-json.html" target="_blank">https://s.wtsolutions.cn/excel-to-json.html</a>
+
+
+`Option 2. Side-load Excel to JSON in Excel` (recommended)
+* Open a new datasheet in Excel 2013/2016 or Excel Online or Office 365.
+* **Home** Tab or **Insert** Tab > Add-ins
+* In the search box, type in "Excel to JSON"
+* Follow the instructions on the screen to install the add-in, and you will see an button JSON-to-Excel added to your **Home** Tab.
+* **Home** Tab > Excel to JSON > Convert
+* Now you are ready to use this add-in.
+
+### Video Guide to Get add-in (side-load in Excel)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tN6lFjjhRfM?si=Yeypz-TplPjX1sWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -35,27 +55,180 @@ This add-in works with Excel 2013(or higher), Excel Online, Office 365, Excel fo
 </script>
 
  <a name="Useadd-in"></a> 
-### Use add-in
 
-		Note that you should select at least two rows as the first row will be considered as header.
+## 3.2 Use Excel to JSON
 
 * Prepare your Excel sheet
-* Select data you'd like to convert
-* Choose Mode: Flat or Nested JSON mode
-* If you have subscribed "Pro Features", you can set more options
+* Load your Excel Data in one of the two ways:
+    1. `Load Excel to JSON in web browser`: Copy and Paste your Excel data in the text area, or
+    2. `Side-load Excel to JSON in Excel`: Select your date directly from Excel worksheet.
+* Set Conversion Settings
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
-* Later you can "copy+paste" / "copy to clipboard" /"Save As" JSON and save it to your computer
+
+### Input Excel Data
+
+There are two ways for you to input Excel data to Excel-to-JSON:
+
+* `Load Excel to JSON in web browser`
+    *  Copy and Paste your Excel data in the text area
+    *  You can copy and paste your Excel data from Excel, Google Sheets, or any other Excel-compatible software, data are seperated by Tab
+    *  You can also copy and paste comma seperated CSV data
+* `Side-load Excel to JSON in Excel`: Select your data directly from Excel worksheet using your mouse.
+
+### Output JSON export
+
+There are several ways for you to save the generated JSON to your local computer.
+
+* `Copy and Paste`. Once JSON generated, you will see them in a textarea, and you can simply copy and paste them anywhere you want.
+* `Copy to Clipboard`. Once JSON generated, you can find the "Copy to Clipboard" button, click on the button, and you will have JSON on your clipboard.
+* `Save to File`.(Not available to `Excel for Mac` users) Once JSON generated, you can find the "Save As" button, click on the button, and you will be prompted to save the JSON to a file.
 
 ### Video Guide to Use add-in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hvj-O5aIzD0?si=yQdYvZkeKM6hMj6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Dependencies
-* [Bootstrap](https://github.com/twbs/bootstrap) - [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
-* [jQuery](https://github.com/jquery/jquery) - [MIT License](https://github.com/jquery/jquery/blob/main/LICENSE.txt)
-* [flat](https://github.com/hughsk/flat) - [BSD-3-Clause License](https://github.com/hughsk/flat/blob/master/LICENSE)
-* [SweetAlert](https://github.com/t4t5/sweetalert) - [MIT License](https://github.com/t4t5/sweetalert/blob/master/LICENSE.md)
-* [jquery.json-viewer](https://github.com/abodelot/jquery.json-viewer) - [MIT License](https://github.com/abodelot/jquery.json-viewer/blob/master/LICENSE)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js) - [MIT License](https://github.com/zenorocha/clipboard.js/blob/master/LICENSE)
-* [jsonlint](https://github.com/zaach/jsonlint) - [MIT License](https://github.com/zaach/jsonlint/blob/master/LICENSE)
+
+## 3.3 Conversion Settings
+
+    Line break in an Excel cell will be rendered as `\n`
+
+
+### Select Header, Row/Column
+By default, Excel to JSON took the first row as header, but optionally, you can select "First Column as Header".
+
+If `First Row as Header` selected:
+
+The first (left) column will be considered as the header column(keys for JSON object), and columns on the right will become values for JSON object."
+
+If `First Column as Header` selected:
+
+The first (top) row will be considered as the header row(keys for JSON object), and row below will become values for JSON object.
+
+
+### Conversion Mode
+* `Flat JSON mode`
+    * Simply convert Excel datasheet to a flat JSON.
+* `Nested JSON mode`
+    * First convert Excel datasheet to a flat JSON
+    * then, unflatten an object with delimited keys using "Flat" [https://www.npmjs.com/package/flat](https://www.npmjs.com/package/flat)
+    * unflatten() is called by Excel-to-JSON, with delimiter as ".", overwrite as true. If you have subscribed "Pro Features", you can set other delimeters.
+
+### Nested JSON Key Delimiter
+
+The delimiter used to separate nested properties in the JSON output.
+
+- `Dot (.)`
+- `Underscore (_)` [Pro Feature]
+- `Double Underscore (__)` [Pro Feature]
+- `Slash (/)` [Pro Feature]
+
+### Other Settings
+
+Other settings will be described in [Pro Features](profeatures.md)
+
+# 4. Examples
+
+
+## 4.1 Example Excel sheet 1
+
+
+|Name|Age|Company|
+|---|---|---|
+|David|27|WTSolutions|
+|Ton|26|WTSolutions|
+|Kitty|30|Microsoft|
+|Linda|30|Microsoft|
+|Joe|40|Github|
+
+> Using Flat JSON mode
+
+**Example JSON**
+
+```json
+[
+    {
+        "Name": "David",
+        "Age": 27,
+        "Company": "WTSolutions"
+    },
+    {
+        "Name": "Ton",
+        "Age": 26,
+        "Company": "WTSolutions"
+    },
+    {
+        "Name": "Kitty",
+        "Age": 30,
+        "Company": "Microsoft"
+    },
+    {
+        "Name": "Linda",
+        "Age": 30,
+        "Company": "Microsoft"
+    },
+    {
+        "Name": "Joe",
+        "Age": 40,
+        "Company": "Github"
+    }
+]
+```
+
+## 4.2 Example Excel sheet 2
+
+|id|student.name|student.familyname|student.age|
+|---|---|---|---|
+|1|Meimei|Han|12|
+|2|Lily|Jaskson|15|
+|3|Elon|Mask|18|
+
+> Using Flat JSON Mode
+
+```json
+[{
+	"id": 1,
+	"student.name": "Meimei",
+	"student.familyname": "Han",
+	"student.age": 12
+}, {
+	"id": 2,
+	"student.name": "Lily",
+	"student.familyname": "Jaskson",
+	"student.age": 15
+}, {
+	"id": 3,
+	"student.name": "Elon",
+	"student.familyname": "Mask",
+	"student.age": 18
+}]
+```
+
+> Using Nested JSON mode, and dot . as delimiter
+
+```json
+[{
+	"id": 1,
+	"student": {
+		"name": "Meimei",
+		"familyname": "Han",
+		"age": 12
+	}
+}, {
+	"id": 2,
+	"student": {
+		"name": "Lily",
+		"familyname": "Jaskson",
+		"age": 15
+	}
+}, {
+	"id": 3,
+	"student": {
+		"name": "Elon",
+		"familyname": "Mask",
+		"age": 18
+	}
+}]
+
+```
+

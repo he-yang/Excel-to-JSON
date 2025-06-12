@@ -3,15 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Excel add-in, Excel-to-JSON, Convert Excel to JSON within Excel (web online, windows, mac, linux)
-=======================================================
-Excel to JSON is a Microsoft Excel add-in which can convert Excel to JSON within Excel. 
+Excel-to-JSON by WTSolutions, Excel add-in, Convert Excel to JSON within Excel (web online, windows, mac, linux)
+=================================================================================================================
+Excel to JSON by WTSolutions is a **Microsoft Excel add-in** or **Web Application** which can convert Excel to JSON within Excel. 
 
-Both **flat and nested JSON** can be converted using Excel-to-JSON add-in.
+Both **flat and nested JSON** can be converted using Excel-to-JSON.
 
-This add-in is available at the Microsoft store- Appsource, which can be accessed within Excel, so it does not require any download, a simple click within Excel would run the add-in.
-
-This is the English version of the documentation, for Simplified Chinese version https://excel-to-json.wtsolutions.cn/zh-cn/latest/
 
 当前为英文版文档，中文版详见 https://excel-to-json.wtsolutions.cn/zh-cn/latest/
 
@@ -22,11 +19,11 @@ This is the English version of the documentation, for Simplified Chinese version
    :caption: Contents:
 
    getstarted.md
-   usage.md
    profeatures.md
+   contact.md
    termsofuse.md
    privacy.md
-   contact.md
+   dependencies.md
 
 .. raw:: html
    

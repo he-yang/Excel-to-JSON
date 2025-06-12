@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Effective Date:** 2025-3-16
-**Last Revised**: 2025-3-16
+**Effective Date:** 2025-6-11
+**Last Revised**: 2025-6-11
 
 ## 1. Introduction
 
@@ -11,7 +11,7 @@ By using the Service, you agree to the terms outlined in this Privacy Policy. If
 
 ## 2. Scope of This Policy
 
-This Privacy Policy applies to the **Excel-to-JSON** Service, which is a Microsoft Excel add-in that allows users to convert Excel files into JSON format. This policy describes how we handle data processed through the Service.
+This Privacy Policy applies to the **Excel-to-JSON** Service, which is a Microsoft Excel add-in or web application that allows users to convert Excel files into JSON format. This policy describes how we handle data processed through the Service.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -28,29 +28,29 @@ This Privacy Policy applies to the **Excel-to-JSON** Service, which is a Microso
 ## 3. Data We Do Not Collect
 
 We want to assure you that:
-- **We do not store or retain any data** from your Excel files.
-- **We do not transmit your data over the internet**. All data processing occurs locally within your Microsoft Excel environment.
+- **We do not store or retain any data** from your Excel files or Excel data.
+- **We do not transmit your data over the internet**. All data processing occurs locally within your Microsoft Excel environment or dweb browser.
 - **We do not access, collect, or use any personal or sensitive information** from your Excel files.
 
-## 4. Data We Collect for Subscription Management
+## 4. Data We Collect for Subscription Managementd
 
 For Pro feature subscriptions, we collect and store:
 - Your name and contact information for subscription management purposes.
 - Payment information (processed by our secure payment gateway Stripe)
 - Subscription status and billing history
-- Usage data related to Pro features for service improvement
+- Usage data related to Pro features for service improvement, such as Pro Code.
 
 ## 5. How the Service Works
 
-The **Excel-to-JSON** Service operates entirely within your local Microsoft Excel application. When you use the Service:
+The **Excel-to-JSON** Service operates entirely within your local device. When you use the Service:
 - Your Excel data is processed locally on your device.
-- The conversion from Excel to JSON is performed within your Microsoft Excel environment.
-- No data is sent to our servers, except your Pro Code for Pro Features.
+- The conversion from Excel to JSON is performed within your Microsoft Excel environment or web browser.
+- No data is sent to our servers, except as described in Section 4.
 
 ## 6. Your Responsibilities
 
 While we take steps to ensure your data remains private, you are responsible for:
-- Ensuring the security of your Microsoft Excel software and the device on which you use the Service.
+- Ensuring the security of your Microsoft Excel software or web browser and the device on which you use the Service.
 - Managing and protecting any sensitive or confidential data within your Excel files.
 - Complying with applicable data protection laws and regulations.
 - Maintaining the accuracy of your billing information and promptly updating any changes.
