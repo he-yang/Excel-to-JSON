@@ -25,6 +25,7 @@ Payment method:
 - Bank Card (Visa, Mastercard, American Express, JCB, 银联)
 - Apple Pay (needs to open the above link using your Apple/IOS/Mac Device)
 - Google Pay (needs to open the above link using your Google/Andriod Device)
+- Alipay 支付宝
 - Link
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
