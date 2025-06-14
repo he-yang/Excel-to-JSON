@@ -6,7 +6,7 @@ The Excel-to-JSON add-in offers a set of pro features that enhance the functiona
 
 ## 5.1 Subscription, Payment and Cancellation
 
-7 days free trial, then you will be charged monthly at one of the following rates for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
+7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
 - USD US$2.66 / month,
 - CNY ¥19.90 / month,
 - EUR €2.36 / month,
@@ -30,7 +30,7 @@ Payment method:
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
-### Cancel Subcription
+### Cancel or Manage Subcription
 
 You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features.
 
@@ -38,6 +38,19 @@ You can cancel your subscription at any time. After the current billing cycle en
 
 
 ## 5.2 Pro Features
+
+### Excel DataSource
+
+There are two ways for you to input Excel data to Excel-to-JSON:
+
+* `Load Excel to JSON in web browser`
+    *  Copy and Paste your Excel data in the text area
+    *  You can copy and paste your Excel data from Excel, Google Sheets, or any other Excel-compatible software, data are seperated by Tab
+    *  You can also copy and paste comma seperated CSV data
+* `Side-load Excel to JSON in Excel`: 
+    * Select your data directly from Excel worksheet using your mouse.
+    * Or, let Excel to JSON to convert all visible sheets from Excel. [Pro Feature]
+    * Or, let Excel to JSON to convert all sheets from Excel. [Pro Feature]
 
 ### Nested JSON Key Delimeter
 

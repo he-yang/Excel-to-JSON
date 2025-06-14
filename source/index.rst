@@ -20,6 +20,7 @@ Both **flat and nested JSON** can be converted using Excel-to-JSON.
 
    getstarted.md
    profeatures.md
+   pricing.md
    contact.md
    termsofuse.md
    privacy.md

@@ -20,7 +20,7 @@ Excel to JSON by WTSolutions is a **Microsoft Excel add-in** or **Web Applicatio
 
 # 3. Quick Start
 <a name="Quickstarted"></a> 
-This quick start is for v 3.0.0
+This quick start is for v 3.1.0
 
 
 ## 3.1 (Side-)Load Excel to JSON
@@ -61,7 +61,7 @@ This quick start is for v 3.0.0
 * Prepare your Excel sheet
 * Load your Excel Data in one of the two ways:
     1. `Load Excel to JSON in web browser`: Copy and Paste your Excel data in the text area, or
-    2. `Side-load Excel to JSON in Excel`: Select your date directly from Excel worksheet.
+    2. `Side-load Excel to JSON in Excel`: Select your date directly from Excel worksheet or let Excel to JSON to convert all (visible) sheets from Excel.
 * Set Conversion Settings
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button
@@ -74,7 +74,11 @@ There are two ways for you to input Excel data to Excel-to-JSON:
     *  Copy and Paste your Excel data in the text area
     *  You can copy and paste your Excel data from Excel, Google Sheets, or any other Excel-compatible software, data are seperated by Tab
     *  You can also copy and paste comma seperated CSV data
-* `Side-load Excel to JSON in Excel`: Select your data directly from Excel worksheet using your mouse.
+* `Side-load Excel to JSON in Excel`: 
+    * Select your data directly from Excel worksheet using your mouse.
+    * Or, let Excel to JSON to convert all visible sheets from Excel. [Pro Feature]
+    * Or, let Excel to JSON to convert all sheets from Excel. [Pro Feature]
+
 
 ### Output JSON export
 
