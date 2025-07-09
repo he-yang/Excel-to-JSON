@@ -34,7 +34,7 @@ Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-t
 
 ### Subscribe Now
 
-<button onclick='checkoutnow()'>Subscribe Now</button>
+<button onclick='checkoutnow()'>Start 7 Day Free Trial Now</button>
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
