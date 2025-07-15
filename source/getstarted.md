@@ -17,6 +17,11 @@ Excel to JSON by WTSolutions is a **Microsoft Excel add-in** or **Web Applicatio
 * Excel Online, 
 * Office 365 etc.
 
+`Option 3. HTTPS POST request to Excel to JSON`
+[https://s.wtsolutions.cn/excel-to-json-api.html](https://s.wtsolutions.cn/excel-to-json-api.html)
+
+`Option 4. AI Model MCP SSE request to Excel to JSON`
+[https://s.wtsolutions.cn/excel-to-json-mcp.html](https://s.wtsolutions.cn/excel-to-json-mcp.html)
 
 # 3. Quick Start
 <a name="Quickstarted"></a> 
@@ -37,6 +42,12 @@ This quick start is for v 3.1.0
 * Follow the instructions on the screen to install the add-in, and you will see an button JSON-to-Excel added to your **Home** Tab.
 * **Home** Tab > Excel to JSON > Convert
 * Now you are ready to use this add-in.
+
+`Option 3. HTTPS POST request to Excel to JSON`
+[https://s.wtsolutions.cn/excel-to-json-api.html](https://s.wtsolutions.cn/excel-to-json-api.html)
+
+`Option 4. AI Model MCP SSE request to Excel to JSON`
+[https://s.wtsolutions.cn/excel-to-json-mcp.html](https://s.wtsolutions.cn/excel-to-json-mcp.html)
 
 ### Video Guide to Get add-in (side-load in Excel)
 
