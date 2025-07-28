@@ -1,5 +1,6 @@
 # 5. MCP Service (Excel to JSON by AI Model MCP SSE/StreamableHTTP request)
 
+[中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/MCP.html)
 
 Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSON, both Flat and Nested JSON can be converted. It offer a full-scenario solution for "Converting Excel to JSON", including Excel add-ins, web applications, open APIs, and enterprise-grade MCP tools:
 

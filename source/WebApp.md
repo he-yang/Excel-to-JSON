@@ -1,5 +1,7 @@
 # 2. Web App (Excel to JSON in Web Browser)
 
+[中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/WebApp.html)
+
 Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSON, both Flat and Nested JSON can be converted. It offer a full-scenario solution for "Converting Excel to JSON", including Excel add-ins, web applications, open APIs, and enterprise-grade MCP tools:
 
 * <mark>Web App: Convert Excel to JSON directly in Web Browser.</mark> (<-- You are here)
