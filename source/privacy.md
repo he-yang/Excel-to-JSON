@@ -3,6 +3,9 @@
 **Effective Date:** 2025-7-6
 **Last Revised**: 2025-7-6
 
+This privacy policy is applicable to Excel to JSON web app, and Excel to JSON Excel add-in.
+For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for privacy policy.
+
 ## 1. Introduction
 
 Welcome to **WTSolutions** ("we," "us," or "our"). This Privacy Policy explains how we handle your data when you use our **Excel-to-JSON** service ("Service"). Your privacy is important to us, and we are committed to protecting your personal information and ensuring transparency in how we operate.

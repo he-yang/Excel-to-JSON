@@ -1,26 +1,18 @@
-# 5. Pro Features
+# 6. Excel Data and Conversion Settings
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
-The Excel-to-JSON add-in offers a set of pro features that enhance the functionality of the add-in. These features are only available to users who have subscribed the add-in.
+Excel to JSON by WTSolutions offers a set of rules of conversion that enhance the functionality of the tools. 
+These rules marked as [Pro Feature](pricing.md) are only available to users who have subscribed the tools.
 
-## 5.1 Subscription, Payment and Cancellation
-
-7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
-- USD US$2.66 / month, excluding tax, tax will be automatically calculated based on your location
-- Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
-
-Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
-
-Each Pro code is valid for both Excel-to-JSON and JSON-to-Excel add-in provided by WTSolutions.
-
-Subscription orders are processed by Paddle.com at [Pricing.html](pricing.md)
-
-## 5.2 Pro Features
+## 6.1 Excel Data
 
 ### Excel DataSource
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|❌|❌|
 
-There are two ways for you to input Excel data to Excel-to-JSON:
+There are two ways for you to input Excel data to Excel to JSON Web App and Excel add-in:
 
 * `Load Excel to JSON in web browser`
     *  Copy and Paste your Excel data in the text area
@@ -28,18 +20,47 @@ There are two ways for you to input Excel data to Excel-to-JSON:
     *  You can also copy and paste comma seperated CSV data
 * `Side-load Excel to JSON in Excel`: 
     * Select your data directly from Excel worksheet using your mouse.
-    * Or, let Excel to JSON to convert all visible sheets from Excel. [Pro Feature]
-    * Or, let Excel to JSON to convert all sheets from Excel. [Pro Feature]
+    * Or, let Excel to JSON to convert all visible sheets from Excel. [Pro Feature](pricing.md)
+    * Or, let Excel to JSON to convert all sheets from Excel. [Pro Feature](pricing.md)
+
+
+## 6.2 Conversion Settings
+
+### Select Header Row or Column
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
+
+You can specify:
+- First Row as header
+    - The first row will be considered as "header" row, and will be used as column names, subsequently JSON keys.
+    - The following rows will be considered as "data" rows, and this will be treated as JSON values.
+- First Column as header [Pro Feature](pricing.md)
+    - The first column will be considered as "header" column, and will be used as JSON keys, subsequently JSON values.
+    - The columns on the right will be considered as "data" columns, and this will be treated as JSON values.
+
+### Conversion Mode
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
+
+The Conversion Mode specifies how to convert Excel data to JSON. The default mode is `Flat`.
+
+* `flat`: Converts Excel data to JSON in a flat structure.
+* `nested`: Converts Excel data to JSON in a nested structure. [Pro Feature](pricing.md)
 
 ### Nested JSON Key Delimeter
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
 
 The Nested JSON Key Delimeter specifies how to separate nested keys in Nested JSON Mode. The default delimiter is a dot (.).
 
 You can also use other delimiters like:
-- `Dot (.)`
-- `Underscore (_)` [Pro Feature]
-- `Double Underscore (__)` [Pro Feature]
-- `Forward Slash(/)` [Pro Feature]
+- `Dot (.)` or `"."`
+- `Underscore (_)` or `"_"` [Pro Feature](pricing.md)
+- `Double Underscore (__)` or `"__"` [Pro Feature](pricing.md)
+- `Forward Slash(/)` or `"/"` [Pro Feature](pricing.md)
 
 For example, using underscore (_) as delimiter:
 
@@ -82,12 +103,15 @@ Will generate:
 }]
 ```
 ### Output Format for Empty Cell
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
 
 The Empty Cell option handles empty cells in Excel with three approaches:
 
-1. `empty string ""`: Converts empty cells to empty strings `""`
-2. `JSON null`: Converts empty cells to `null` [Pro Feature]
-3. `not include in JSON`: Excludes empty cells from JSON [Pro Feature]. This option is not available in 2DArray format output JSON.
+1. `empty string ""` or `"emptyString"`: Converts empty cells to empty strings `""`
+2. `JSON null` or `"null"`: Converts empty cells to `null` [Pro Feature](pricing.md)
+3. `not include in JSON` or `"exclude"`: Excludes empty cells from JSON [Pro Feature](pricing.md). This option is not available in 2DArray format output JSON.
 
 **Example Excel sheet**
 
@@ -136,12 +160,15 @@ The Empty Cell option handles empty cells in Excel with three approaches:
 ```
 
 ### Output Format for Boolean Values
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
 
 The Boolean Format specifies how to convert boolean values in Excel:
 
-1. `JSON true/false`: Converts to JSON boolean values (`true` or `false`)
-2. `String "true"/"false"`: Converts to strings (`"true"` or `"false"`) [Pro Feature]
-3. `Number 1/0`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`) [Pro Feature]
+1. `JSON true/false` or `"trueFalse"`: Converts to JSON boolean values (`true` or `false`)
+2. `String "true"/"false"` or `"string"`: Converts to strings (`"true"` or `"false"`) [Pro Feature](pricing.md)
+3. `Number 1/0` or `"10"`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`) [Pro Feature](pricing.md)
 
 **Example Excel sheet**
 
@@ -192,12 +219,17 @@ The Boolean Format specifies how to convert boolean values in Excel:
 ```
 
 ### Output Format for Date Format values
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|❌|✅|❌|❌|
+
 This feature allows you to convert date values in Excel to a specific format, such as ISO 8601 or number of days from 1900-01-01. It is not avalible when you load Excel to JSON in web browser. If you want to convert date values in Excel to a specific format, you can sideload Excel to JSON in Excel application.
 
 The Date Format specifies how to convert date values in Excel:
 
 1. `Number of Days from 1900-01-01`: Converts to number of days since 1900-01-01
-2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string [Pro Feature]
+2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string [Pro Feature](pricing.md)
+
 
 > <mark> Note: The Date Format feature only work, if you add $date$ as suffix in your Excel Datasheet first row. Refer to the subsequent example header row. </mark>
 > Note: Excel can not render Dates before 1900-01-01 as Date format, so you may find that cell be interpreted as String format.
@@ -235,10 +267,13 @@ The Date Format specifies how to convert date values in Excel:
 ```
 
 ### Output Format for JSON
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
 
 There are two options for you to present output JSON:
-1. `Array of object`
-2. `2D Array` [Pro Feature]
+1. `Array of object` or `"arrayOfObject"`
+2. `2D Array` or `"2DArray"` [Pro Feature](pricing.md)
 
 **Example Excel sheet**
 
@@ -271,12 +306,16 @@ There are two options for you to present output JSON:
 ]
 ```
 
-### Output Format for Single Object JSON 
+### Output Format for Single Object JSON
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|
 
 The option specifies how to perserve single object JSON, when there is only one object in the converted JSON:
 
-1. `Array []`: Converts to an array of one object
-2. `Object {}`: Converts to one object [Pro Feature]
+1. `Array []` or `"array"`: Converts to an array of one object
+2. `Object {}` or `"object"`: Converts to one object [Pro Feature](pricing.md)
+
 
 > Note: The feature only work, when there is only one object in the converted JSON, and the output format for JSON is Array of Object.
 
@@ -303,6 +342,9 @@ The option specifies how to perserve single object JSON, when there is only one 
 ```
 
 ### Filename at SaveAs
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|❌|❌|
 
 The Save As Filename feature allows you to specify a custom filename for your JSON output file，when you click on the "Save As" botton after the conversion. When you enter a filename in this field, the converted JSON data will be saved with your specified name instead of the default name(excel-to-json.json).
 
@@ -324,14 +366,14 @@ The Save As Filename feature allows you to specify a custom filename for your JS
   - If you are a Mac user, you can use Web version of Excel on Office.com or Onedrive.
 
 
-## 5.3 More features
+## 6.3 More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## 5.4 Pro Code
+## 6.4 Pro Code
 
 Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
 
-## 5.5 Aftersale services
+## 6.5 Aftersale services
 
 You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.

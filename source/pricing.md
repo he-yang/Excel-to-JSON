@@ -1,4 +1,4 @@
-# 6. Pricing
+# 7. Pricing
 
 ##  Subscription, Payment and Cancellation
 

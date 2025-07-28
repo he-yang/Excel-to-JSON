@@ -2,6 +2,9 @@
 
 **Effective Date:** 2025-6-11
 
+This service agreement is applicable to Excel to JSON web app, and Excel to JSON Excel add-in.
+For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for service agreement.
+
 ## 1. Introduction
 
 Welcome to the Excel-to-JSON service ("Service"). This Service Agreement ("Agreement") is a legal agreement between you ("User" or "you") and **WTSolutions** ("we," "us," or "our") governing your use of the Excel-to-JSON service. By accessing or using the Service, you agree to be bound by the terms and conditions of this Agreement. If you do not agree to these terms, you may not use the Service.
