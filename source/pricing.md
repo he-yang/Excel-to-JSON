@@ -1,16 +1,44 @@
 # 7. Pricing
 
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script type="text/javascript">
+  // Paddle.Environment.set("sandbox");
+  Paddle.Initialize({ 
+    token: "live_1c12997e01d459f8b047201cd55"
+  });
+  function checkoutnow(priceId){
+    Paddle.Checkout.open({
+        items: [{priceId: priceId,quantity: 1}]
+    });  
+  }  
+</script>
+
 ##  Subscription, Payment and Cancellation
 
 7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
-- USD US$2.66 / month, excluding tax, tax will be automatically calculated based on your location.
-- Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
+
+| Billing Cycle | Price (USD) | Subscribe through Paddle |
+| :---: | :---: | :---: |
+| Every Month | US$2.66, excluding tax | <button onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")'>Free Trial and Subscribe</button> |
+| Every Quarter (3 months) | US$3.66, excluding tax | <button onclick='checkoutnow("pri_01k19xzfq77gp4tvtqypjyfqdq")'>Free Trial and Subscribe</button> |
+| Every Half year (6 months) | US$4.99, excluding tax | <button onclick='checkoutnow("pri_01k19y29j38js9zwnq36tkwkqv")'>Free Trial and Subscribe</button> |
+| Every Year | US$5.99, excluding tax | <button onclick='checkoutnow("pri_01k19y3basxqvta0cycksqsjaf")'>Free Trial and Subscribe</button> |
+
+
+* Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
+* Tax will be automatically calculated based on your location.
 
 Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
-Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) add-in provided by WTSolutions.
+Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) add-in provided by WTSolutions:
+- Excel to JSON [Web App](WebApp.md)
+- Excel to JSON [Excel Addin](ExcelAddIn.md)
+- Excel to JSON [API](API.md)
+- JSON to Excel
 
 ### Subscribe though Paddle
+
+The subscription is managed through [Paddle](https://paddle.com/). 
 
 #### Payment Methods
 - Paypal
@@ -19,22 +47,14 @@ Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-t
 - Apple Pay (Apple Device required)
 - BanContact in BE
 
-<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-<script type="text/javascript">
-  // Paddle.Environment.set("sandbox");
-  Paddle.Initialize({ 
-    token: "live_1c12997e01d459f8b047201cd55"
-  });
-  function checkoutnow(){
-    Paddle.Checkout.open({
-        items: [{priceId: 'pri_01jz0fdq3rm19fn5bqrn86tnjy',quantity: 1}]
-    });  
-  }  
-</script>
+
 
 ### Subscribe Now
 
-<button onclick='checkoutnow()'>Start 7 Day Free Trial Now</button>
+<button onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")'>Start 7 Day Free Trial Now, then USD $2.66 / month (excluding tax)</button>
+<button onclick='checkoutnow("pri_01k19xzfq77gp4tvtqypjyfqdq")'>Start 7 Day Free Trial Now, then USD $3.66 / quarter (3 months) (excluding tax)</button>
+<button onclick='checkoutnow("pri_01k19y29j38js9zwnq36tkwkqv")'>Start 7 Day Free Trial Now, then USD $4.99 / half year (6 months) (excluding tax)</button>
+<button onclick='checkoutnow("pri_01k19y3basxqvta0cycksqsjaf")'>Start 7 Day Free Trial Now, then USD $5.99 / year (excluding tax)</button>
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
