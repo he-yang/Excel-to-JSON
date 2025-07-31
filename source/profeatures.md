@@ -366,14 +366,24 @@ The Save As Filename feature allows you to specify a custom filename for your JS
   - If you are a Mac user, you can use Web version of Excel on Office.com or Onedrive.
 
 
-## 6.3 More features
+## 6.3 No Ads
+
+If you have a valid subscription to Excel-to-JSON, you will not see ads after a successful conversion with a valid Pro Code.
+
+Starting from the next launch (you can shut down Excel-to-JSON and then start it again), Excel-to-JSON will no longer display ads. 
+
+Ads will be displayed if you do not have a valid Pro Code, or if you do not have a valid subscription to Excel-to-JSON.
+
+> Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart Excel-to-JSON.
+
+## 6.4 More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## 6.4 Pro Code
+## 6.5 Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
+Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe or Paddle. This code is required to access pro features.
 
-## 6.5 Aftersale services
+## 6.6 Aftersale services
 
 You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.

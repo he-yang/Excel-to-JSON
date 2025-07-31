@@ -9,7 +9,7 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 * [API: Convert Excel to JSON by HTTPS POST request.](API.md)
 * [MCP Service: Convert Excel to JSON by AI Model MCP SSE/StreamableHTTP request.](MCP.md)
 
-## 3.1. Requirements
+## 3.1 Requirements
 
 * Excel 2013 Service Pack 1 or later, 
 * Excel 2016 for Mac, 

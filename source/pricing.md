@@ -69,3 +69,8 @@ You can cancel your subscription at any time. After the current billing cycle en
 You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features.
 
 [https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
+
+
+## Aftersale services
+
+You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.
