@@ -365,6 +365,15 @@ The Save As Filename feature allows you to specify a custom filename for your JS
 - Excel for Mac, not supported
   - If you are a Mac user, you can use Web version of Excel on Office.com or Onedrive.
 
+If you are sideloading Excel to JSON Excel add-in and, your Excel on Windows version is 1801 (Office 2019) or later. You can find two additional buttons, helping you get Workbook name and Worksheet name.
+
+**Take Workbook Name**
+- Click the "Take Workbook Name" button to automatically retrieve the name of the currently open Excel workbook.
+- The workbook name will be displayed in the "Filename at SaveAs" input text box.
+
+**Take Worksheet Name**
+- Click the "Take Worksheet Name" button to automatically retrieve the name of the currently active worksheet.
+- The worksheet name will be displayed in the "Filename at SaveAs" input text box.
 
 ## 6.3 No Ads
 

@@ -34,7 +34,8 @@ Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-t
 - Excel to JSON [Web App](WebApp.md)
 - Excel to JSON [Excel Addin](ExcelAddIn.md)
 - Excel to JSON [API](API.md)
-- JSON to Excel
+- JSON to Excel Web App
+- JSON to Excel Excel Addin
 
 ### Subscribe though Paddle
 
