@@ -1,4 +1,4 @@
-# 4. API (Excel to JSON by HTTPS POST request)
+# 5. API (Excel to JSON by HTTPS POST request)
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/API.html)
 
@@ -6,20 +6,21 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 
 * [Web App: Convert Excel to JSON directly in Web Browser.](WebApp.md)
 * [Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.](ExcelAddIn.md)
+* [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
 * <mark>API: Convert Excel to JSON by HTTPS POST request.</mark> (<-- You are here.)
 * [MCP Service: Convert Excel to JSON by AI Model MCP SSE/StreamableHTTP request.](MCP.md)
 
-## 4.1 Requirements
+## 5.1 Requirements
 
 HTTPS post request tool, e.g. Postman, Curl, Python Requests, Javascript fetch, etc.
 Make sure you properly handle CORS issues by setting up CORS headers.
 
-## 4.2 Access
+## 5.2 Access
 
 Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-api` with required parameters described below in usage section. There are two ways to use this API:
 
-* Standard way(Section 4.3): free of charge, with standard conversion rules.
-* Pro way (Section 4.4): with custom conversion rules, requires a valid [subscription](pricing.md) to Excel to JSON by WTSolutions service.
+* Standard way(Section 5.3): free of charge, with standard conversion rules.
+* Pro way (Section 5.4): with custom conversion rules, requires a valid [subscription](pricing.md) to Excel to JSON by WTSolutions service.      
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -33,15 +34,15 @@ Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-ap
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 4.3 Usage -- Standard
+## 5.3 Usage -- Standard
 
 The Excel to JSON API provides a simple way to convert Excel and CSV data into JSON format. This API accepts
 - Tab-separated or comma-separated text data, or
 - URL pointing to an Excel
 
-In this section, you can find a standard way to use this API, and this way is free of charge. If you would like to make some customized conversion, please refer to Section 4.4 Usage -- Pro.
+In this section, you can find a standard way to use this API, and this way is free of charge. If you would like to make some customized conversion, please refer to Section 5.4 Usage -- Pro.
 
-### 4.3.1 Request Format
+### 5.3.1 Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -72,7 +73,7 @@ When sending `url`
 
 
 
-### 4.3.2 Response Format
+### 5.3.2 Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -82,7 +83,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted data as array of sheet objects if using URL, string if using direct data |
 
 
-### 4.3.3 Example
+### 5.3.3 Example
 
 #### Example Request with 'data'
 
@@ -149,8 +150,8 @@ Response:
 }
 ```
 
-### 4.3.4 Data Type Handling
-This API -- Standard way automatically detects and converts different data types, while in Pro way, users can customize the conversion rules by providing an 'options' object in the request body as described in Section 4.4.
+### 5.3.4 Data Type Handling
+This API -- Standard way automatically detects and converts different data types, while in Pro way, users can customize the conversion rules by providing an 'options' object in the request body as described in Section 5.4.
 - **Numbers**: Converted to numeric values
 - **Booleans**: Recognizes 'true'/'false' (case-insensitive) and converts to boolean values
 - **Dates**: Detects various date formats and converts them appropriately
@@ -158,12 +159,12 @@ This API -- Standard way automatically detects and converts different data types
 - **Empty values**: Represented as empty strings
 
 
-## 4.4 Usage -- Pro
+## 5.4 Usage -- Pro
 
-This section -- Pro is for users who have purchased a [subscription](pricing.md) to Excel to JSON service. If you have not purchased a subscription, please refer to Section 4.3 Usage -- Standard.
+This section -- Pro is for users who have purchased a [subscription](pricing.md) to Excel to JSON service. If you have not purchased a subscription, please refer to Section 5.3 Usage -- Standard.
 
 
-### 4.4.1 Request Format
+### 5.4.1 Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -175,7 +176,7 @@ The API accepts POST requests with a `application/json` body containing one of t
 
 > Note: 
 > - Provide either `data` or `url`, not both.
-> - `options` is mandatory if you want to use custom conversion settings. If you do not have a valid Pro Code, please refer to Section 4.3 Usage -- Standard.
+> - `options` is mandatory if you want to use custom conversion settings. If you do not have a valid Pro Code, please refer to Section 5.3 Usage -- Standard.
 
 #### Requirements on data and url
 
@@ -195,7 +196,7 @@ When sending `url`
 - Each JSON object in 'data' array will have values corresponding to cell values.
 
 
-### 4.4.2 Options Object
+### 5.4.2 Options Object
 The optional `options` object can contain the following properties:
 
 | Property             | Type   | Default   | Description                                                                 |
@@ -213,10 +214,10 @@ The optional `options` object can contain the following properties:
 > - `delimiter` works only when `jsonMode` is "nested".
 > - `singleObjectFormat` works only when `jsonFormat` is "arrayOfObject". 
 > - `jsonFormat` as "2DArray" works only when `jsonMode` is "flat".
-> - `proCode` is mandatory. If you do not have a valid Pro Code, please refer to Section 4.3 Usage -- Standard.
+> - `proCode` is mandatory. If you do not have a valid Pro Code, please refer to Section 5.3 Usage -- Standard.
 > - Detailed conversion rules can be found in [Pro Features](profeatures.md).
 
-### 4.3.2 Response Format
+### 5.3.2 Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -226,7 +227,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted data as array of sheet objects if using URL, string if using direct data, '' if there was an error.|
 
 
-### 4.3.3 Examples 
+### 5.3.3 Examples 
 
 #### Example Request with 'data'
 
@@ -330,7 +331,7 @@ Response:
 }
 ```
 
-## 4.5 Error Handling
+## 5.5 Error Handling
 The API returns descriptive error messages for common issues:
 - `Excel Data Format Invalid`: When input data is not tab-separated or comma-separated
 - `At least 2 rows are required`: When input data has fewer than 2 rows

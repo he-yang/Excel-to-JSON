@@ -6,6 +6,7 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 
 * <mark>Web App: Convert Excel to JSON directly in Web Browser.</mark> (<-- You are here)
 * [Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.](ExcelAddIn.md)
+* [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
 * [API: Convert Excel to JSON by HTTPS POST request.](API.md)
 * [MCP Service: Convert Excel to JSON by AI Model MCP SSE/StreamableHTTP request.](MCP.md)
 

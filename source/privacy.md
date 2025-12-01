@@ -1,9 +1,9 @@
 # Privacy Policy
 
-**Effective Date:** 2025-7-6
-**Last Revised**: 2025-7-6
+**Effective Date:** 2025-12-01
+**Last Revised**: 2025-12-01
 
-This privacy policy is applicable to Excel to JSON web app, and Excel to JSON Excel add-in.
+This privacy policy is applicable to Excel to JSON web app, Excel to JSON Excel add-in, and Excel to JSON WPS add-in.
 For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for privacy policy.
 
 ## 1. Introduction
@@ -14,7 +14,7 @@ By using the Service, you agree to the terms outlined in this Privacy Policy. If
 
 ## 2. Scope of This Policy
 
-This Privacy Policy applies to the **Excel-to-JSON** Service, which is a Microsoft Excel add-in or web application that allows users to convert Excel files into JSON format. This policy describes how we handle data processed through the Service.
+This Privacy Policy applies to the **Excel-to-JSON** Service, which is a Microsoft Excel/WPS add-in or web application that allows users to convert Excel/WPS files into JSON format. This policy describes how we handle data processed through the Service.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -31,9 +31,9 @@ This Privacy Policy applies to the **Excel-to-JSON** Service, which is a Microso
 ## 3. Data We Do Not Collect
 
 We want to assure you that:
-- **We do not store or retain any data** from your Excel files or Excel data.
-- **We do not transmit your data over the internet**. All data processing occurs locally within your Microsoft Excel environment or dweb browser.
-- **We do not access, collect, or use any personal or sensitive information** from your Excel files.
+- **We do not store or retain any data** from your Excel files, Excel content, WPS files, WPS content.
+- **We do not transmit your data over the internet**. All data processing occurs locally within your Microsoft Excel/WPS environment or dweb browser.
+- **We do not access, collect, or use any personal or sensitive information** from your Excel/WPS files.
 
 ## 4. Data We Collect for Subscription Managementd
 
@@ -46,15 +46,15 @@ For Pro feature subscriptions, we collect and store:
 ## 5. How the Service Works
 
 The **Excel-to-JSON** Service operates entirely within your local device. When you use the Service:
-- Your Excel data is processed locally on your device.
-- The conversion from Excel to JSON is performed within your Microsoft Excel environment or web browser.
+- Your Excel/WPS data is processed locally on your device.
+- The conversion from Excel to JSON is performed within your Microsoft Excel/WPS environment or web browser.
 - No data is sent to our servers, except as described in Section 4.
 
 ## 6. Your Responsibilities
 
 While we take steps to ensure your data remains private, you are responsible for:
-- Ensuring the security of your Microsoft Excel software or web browser and the device on which you use the Service.
-- Managing and protecting any sensitive or confidential data within your Excel files.
+- Ensuring the security of your Microsoft Excel/WPS software or web browser and the device on which you use the Service.
+- Managing and protecting any sensitive or confidential data within your Excel/WPS files.
 - Complying with applicable data protection laws and regulations.
 - Maintaining the accuracy of your billing information and promptly updating any changes.
 
@@ -72,7 +72,7 @@ Cloudflare Web Analytics is designed to prioritize user privacy. It collects the
 ### What Data is NOT Collected by Cloudflare Web Analytics?
 - Cloudflare does not use cookies or track individual users across websites.
 - No personal or identifiable information (PII) is collected.
-- No data from your Excel files is shared with Cloudflare or any other third party.
+- No data from your Excel/WPS files is shared with Cloudflare or any other third party.
 
 For more information about Cloudflare Web Analytics and their privacy practices, please visit [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
@@ -89,7 +89,7 @@ Google AdSense collects the following information to provide personalized advert
 
 ### What Data is NOT Collected by Google AdSense?
 - No data from your JSON files is shared with Google AdSense
-- No sensitive business data from Excel processing
+- No sensitive business data from Excel/WPS processing
 - No personal information beyond standard web analytics data
 
  For more information about how Google uses data, please visit [Google's Privacy & Terms](https://policies.google.com/privacy).

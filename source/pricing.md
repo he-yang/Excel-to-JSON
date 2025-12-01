@@ -1,4 +1,4 @@
-# 7. Pricing
+# 8. Pricing
 
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
 <script type="text/javascript">
@@ -33,6 +33,7 @@ Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial 
 Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) add-in provided by WTSolutions:
 - Excel to JSON [Web App](WebApp.md)
 - Excel to JSON [Excel Addin](ExcelAddIn.md)
+- Excel to JSON [WPS Addin](WPSAddIn.md)
 - Excel to JSON [API](API.md)
 - JSON to Excel Web App
 - JSON to Excel Excel Addin
