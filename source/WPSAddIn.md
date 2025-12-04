@@ -61,3 +61,7 @@ Refer to [Conversion Settings](profeatures.md) for details.
 Refer to the following video (for Excel add-in). Using WPS add-in is similar to using Excel add-in.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hvj-O5aIzD0?si=yQdYvZkeKM6hMj6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Refer to the following video in simplified Chinese for simple demo of using WPS add-in.
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115658486452582&bvid=BV1Lx2hBfE8W&cid=34486354022&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
