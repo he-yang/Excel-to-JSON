@@ -3,7 +3,6 @@
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
 Excel to JSON by WTSolutions offers a set of rules of conversion that enhance the functionality of the tools. 
-These rules marked as [Pro Feature](pricing.md) are only available to users who have subscribed the tools.
 
 ## 7.1 Excel Data
 
@@ -20,8 +19,8 @@ There are several ways for you to input Excel data to Excel to JSON Web App and 
     *  You can also copy and paste comma seperated CSV data
 * Excel Add-in: `Side-load Excel to JSON in Excel`: 
     * Select your data directly from Excel worksheet using your mouse or keyboard.
-    * Or, let Excel to JSON to convert all visible sheets from Excel. [Pro Feature](pricing.md)
-    * Or, let Excel to JSON to convert all sheets from Excel. [Pro Feature](pricing.md)
+    * Or, let Excel to JSON to convert all visible sheets from Excel. 
+    * Or, let Excel to JSON to convert all sheets from Excel. 
 * WPS Add-in: `Side-load WPS sheet to JSON in WPS`: 
     * Select your data directly from WPS worksheet using your mouse or keyboard
 
@@ -38,7 +37,7 @@ You can specify:
 - First Row as header
     - The first row will be considered as "header" row, and will be used as column names, subsequently JSON keys.
     - The following rows will be considered as "data" rows, and this will be treated as JSON values.
-- First Column as header [Pro Feature](pricing.md)
+- First Column as header 
     - The first column will be considered as "header" column, and will be used as JSON keys, subsequently JSON values.
     - The columns on the right will be considered as "data" columns, and this will be treated as JSON values.
 
@@ -50,7 +49,7 @@ You can specify:
 The Conversion Mode specifies how to convert Excel data to JSON. The default mode is `Flat`.
 
 * `flat`: Converts Excel data to JSON in a flat structure.
-* `nested`: Converts Excel data to JSON in a nested structure. [Pro Feature](pricing.md)
+* `nested`: Converts Excel data to JSON in a nested structure. 
 
 ### Nested JSON Key Delimeter
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
@@ -61,9 +60,9 @@ The Nested JSON Key Delimeter specifies how to separate nested keys in Nested JS
 
 You can also use other delimiters like:
 - `Dot (.)` or `"."`
-- `Underscore (_)` or `"_"` [Pro Feature](pricing.md)
-- `Double Underscore (__)` or `"__"` [Pro Feature](pricing.md)
-- `Forward Slash(/)` or `"/"` [Pro Feature](pricing.md)
+- `Underscore (_)` or `"_"` 
+- `Double Underscore (__)` or `"__"` 
+- `Forward Slash(/)` or `"/"` 
 
 For example, using underscore (_) as delimiter:
 
@@ -113,8 +112,8 @@ Will generate:
 The Empty Cell option handles empty cells in Excel/WPS Workbook with three approaches:
 
 1. `empty string ""` or `"emptyString"`: Converts empty cells to empty strings `""`
-2. `JSON null` or `"null"`: Converts empty cells to `null` [Pro Feature](pricing.md)
-3. `not include in JSON` or `"exclude"`: Excludes empty cells from JSON [Pro Feature](pricing.md). This option is not available in 2DArray format output JSON.
+2. `JSON null` or `"null"`: Converts empty cells to `null` 
+3. `not include in JSON` or `"exclude"`: Excludes empty cells from JSON . This option is not available in 2DArray format output JSON.
 
 **Example Excel sheet**
 
@@ -170,8 +169,8 @@ The Empty Cell option handles empty cells in Excel/WPS Workbook with three appro
 The Boolean Format specifies how to convert boolean values in Excel/WPS Workbook:
 
 1. `JSON true/false` or `"trueFalse"`: Converts to JSON boolean values (`true` or `false`)
-2. `String "true"/"false"` or `"string"`: Converts to strings (`"true"` or `"false"`) [Pro Feature](pricing.md)
-3. `Number 1/0` or `"10"`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`) [Pro Feature](pricing.md)
+2. `String "true"/"false"` or `"string"`: Converts to strings (`"true"` or `"false"`) 
+3. `Number 1/0` or `"10"`: Converts to numbers (`1` for `TRUE`, `0` for `FALSE`) 
 
 **Example Excel sheet**
 
@@ -231,7 +230,7 @@ This feature allows you to convert date values in Excel/WPS Workbook to a specif
 The Date Format specifies how to convert date values in Excel/WPS Workbook:
 
 1. `Number of Days from 1900-01-01`: Converts to number of days since 1900-01-01
-2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string [Pro Feature](pricing.md)
+2. `String, ISO 8601 (YYYY-MM-DDTHH:mm:ssZ)`: Converts to ISO 8601 formatted string 
 
 
 > <mark> Note: The Date Format feature only work, if you add $date$ as suffix in your Excel/WPS Workbook Datasheet first row. Refer to the subsequent example header row. </mark>
@@ -276,7 +275,7 @@ The Date Format specifies how to convert date values in Excel/WPS Workbook:
 
 There are two options for you to present output JSON:
 1. `Array of object` or `"arrayOfObject"`
-2. `2D Array` or `"2DArray"` [Pro Feature](pricing.md)
+2. `2D Array` or `"2DArray"` 
 
 **Example Excel sheet**
 
@@ -317,7 +316,7 @@ There are two options for you to present output JSON:
 The option specifies how to perserve single object JSON, when there is only one object in the converted JSON:
 
 1. `Array []` or `"array"`: Converts to an array of one object
-2. `Object {}` or `"object"`: Converts to one object [Pro Feature](pricing.md)
+2. `Object {}` or `"object"`: Converts to one object 
 
 
 > Note: The feature only work, when there is only one object in the converted JSON, and the output format for JSON is Array of Object.
@@ -394,7 +393,7 @@ If you have subscribed, and would like to see more features, kindly please send 
 
 ## 7.5 Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe or Paddle. This code is required to access pro features.
+Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe or Paddle. This code is required to access Pro Version.
 
 ## 7.6 Aftersale services
 

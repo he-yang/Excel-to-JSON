@@ -13,7 +13,19 @@
   }  
 </script>
 
-##  Subscription, Payment and Cancellation
+## Free Version and Pro Version
+
+Free Version:
+- Convert up to 6 rows of data per conversion.
+
+Pro Version:
+- Unlimited data conversion.
+
+## Pro Code
+
+Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Paddle. This code is required to have unlimited data conversion.
+
+## Pro Version Subscription, Payment and Cancellation
 
 7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
 

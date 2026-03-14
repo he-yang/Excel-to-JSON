@@ -17,10 +17,7 @@ Make sure you properly handle CORS issues by setting up CORS headers.
 
 ## 5.2 Access
 
-Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-api` with required parameters described below in usage section. There are two ways to use this API:
-
-* Standard way(Section 5.3): free of charge, with standard conversion rules.
-* Pro way (Section 5.4): with custom conversion rules, requires a valid [subscription](pricing.md) to Excel to JSON by WTSolutions service.      
+Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-api` with required parameters described below in usage section. 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -34,137 +31,9 @@ Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-ap
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 5.3 Usage -- Standard
-
-The Excel to JSON API provides a simple way to convert Excel and CSV data into JSON format. This API accepts
-- Tab-separated or comma-separated text data, or
-- URL pointing to an Excel
-
-In this section, you can find a standard way to use this API, and this way is free of charge. If you would like to make some customized conversion, please refer to Section 5.4 Usage -- Pro.
+## 5.3 Usage
 
 ### 5.3.1 Request Format
-
-The API accepts POST requests with a `application/json` body containing one of the following parameter:
-
-| Parameter | Type   | Required | Description                                                                 |
-|-----------|--------|----------|-----------------------------------------------------------------------------|
-| data      | string | No       | Tab-separated or comma-separated text data with at least two rows (header row + data row). Either 'data' or 'url' must be provided |
-| url       | string | No       | URL pointing to an Excel or CSV file. Either 'data' or 'url' must be provided |
-
-> Note: 
-> - Provide either `data` or `url`, not both.
-
-#### Requirements on data and url
-
-When sending `data`
-- Input data must be tab-separated (Excel) or comma-separated (CSV) text with at least two rows (header row + data row).
-  1. The first row will be considered as "header" row, and this API will use it as column names, subsequently JSON keys.
-  2. The following rows will be considered as "data" rows, and this API will treat them as JSON values.
-
-When sending `url`
-- Each sheet of the Excel file should contain at least two rows (header row + data row).
-  1. The first row will be considered as "header" row, and this API will use it as column names, subsequently JSON keys.
-  2. The following rows will be considered as "data" rows, and this API will treat them as JSON values.
-- This Excel file should be in '.xlsx' format.
-- Each sheet of the Excel file will be converted to a JSON object.
-- Each JSON object will have 'sheetName' (string) and 'data' (array of objects) properties.
-- Each JSON object in 'data' array will have properties corresponding to column names.
-- Each JSON object in 'data' array will have values corresponding to cell values.
-
-
-
-### 5.3.2 Response Format
-The API returns a JSON object with the following structure:
-
-| Field   | Type    | Description                                                                 |
-|---------|---------|-----------------------------------------------------------------------------|
-| isError | boolean | Indicates if there was an error processing the request                      |
-| msg     | string  | 'success' or error description                                              |
-| data    | string  | Converted data as array of sheet objects if using URL, string if using direct data |
-
-
-### 5.3.3 Example
-
-#### Example Request with 'data'
-
-Origin Excel Data:
-
-| Name       | Age | IsStudent |
-|------------|-----|-----------|
-| John Doe   | 25  | false     |
-| Jane Smith | 30  | true      |
-
-Request:
-
-```json
-{"data": "Name\tAge\tIsStudent\nJohn Doe\t25\tfalse\nJane Smith\t30\ttrue"}
-```
-
-Response:
-
-```json
-{
-	"isError": false,
-	"msg": "success",
-	"data": "[{\"Name\":\"John Doe\",\"Age\":25,\"IsStudent\":false},{\"Name\":\"Jane Smith\",\"Age\":30,\"IsStudent\":true}]"
-}
-```
-
-#### Example Request with 'url'
-
-Origin Excel Data in `Sheet1`:
-
-| Name       | Age | IsStudent |
-|------------|-----|-----------|
-| John Doe   | 25  | false     |
-| Jane Smith | 30  | true      |
-
-Origin Excel Data in `Sheet2`:
-
-| ID | Value   |
-|----|---------|
-| 1  | Example |
-
-Request:
-
-```json
-{"url": "https://tools.wtsolutions.cn/example.xlsx"}
-```
-
-Response:
-
-```json
-{
-	"isError": false,
-	"msg": "success",
-	"data": "[{\"sheetName\":\"Sheet1\",\"data\":[{\"Name\":\"John Doe\",\"Age\":25,\"IsStudent\":false},{\"Name\":\"Jane Smith\",\"Age\":30,\"IsStudent\":true}]},{\"sheetName\":\"Sheet2\",\"data\":[{\"ID\":1,\"Value\":\"Example\"}]}]"
-}
-```
-
-#### Example Error Response
-```json
-{
-     "isError": true,
-     "msg": "At least 2 rows are required in Excel Data",
-     "data": ""
-}
-```
-
-### 5.3.4 Data Type Handling
-This API -- Standard way automatically detects and converts different data types, while in Pro way, users can customize the conversion rules by providing an 'options' object in the request body as described in Section 5.4.
-- **Numbers**: Converted to numeric values
-- **Booleans**: Recognizes 'true'/'false' (case-insensitive) and converts to boolean values
-- **Dates**: Detects various date formats and converts them appropriately
-- **Strings**: Treated as string values
-- **Empty values**: Represented as empty strings
-
-
-## 5.4 Usage -- Pro
-
-This section -- Pro is for users who have purchased a [subscription](pricing.md) to Excel to JSON service. If you have not purchased a subscription, please refer to Section 5.3 Usage -- Standard.
-
-
-### 5.4.1 Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -176,7 +45,8 @@ The API accepts POST requests with a `application/json` body containing one of t
 
 > Note: 
 > - Provide either `data` or `url`, not both.
-> - `options` is mandatory if you want to use custom conversion settings. If you do not have a valid Pro Code, please refer to Section 5.3 Usage -- Standard.
+> - `options` is mandatory if you want to use custom conversion settings. 
+> - By default, max 6 rows of data conversion is performed. To convert more rows, a valid Pro Code is required.
 
 #### Requirements on data and url
 
@@ -196,12 +66,12 @@ When sending `url`
 - Each JSON object in 'data' array will have values corresponding to cell values.
 
 
-### 5.4.2 Options Object
+### 5.3.2 Options Object
 The optional `options` object can contain the following properties:
 
 | Property             | Type   | Default   | Description                                                                 |
 |----------------------|--------|-----------|-----------------------------------------------------------------------------|
-| [proCode](profeatures.md#pro-code)              | string | ""        | Pro Code for custom conversion rules which requires a valid [subscription](pricing.md) to Excel to JSON service. This is a mandatory input. |
+| [proCode](profeatures.md#pro-code)              | string | ""        | Pro Code for Pro Version Excel to JSON subscription. |
 | [jsonMode](profeatures.md#conversion-mode)             | string | "flat"    | Format mode for JSON output: "nested", or "flat"                   |
 | [header](profeatures.md#select-header-row-or-column)               | string | "row"     | Specifies which row/column to use as headers: "row" (first row) or "column" (first column) |
 | [delimiter](profeatures.md#nested-json-key-delimeter)            | string | "."       | Delimiter character for nested JSON keys when using `jsonMode`: "nested", acceptable delimiters are ".", "_", "__", "/". |
@@ -214,10 +84,10 @@ The optional `options` object can contain the following properties:
 > - `delimiter` works only when `jsonMode` is "nested".
 > - `singleObjectFormat` works only when `jsonFormat` is "arrayOfObject". 
 > - `jsonFormat` as "2DArray" works only when `jsonMode` is "flat".
-> - `proCode` is mandatory. If you do not have a valid Pro Code, please refer to Section 5.3 Usage -- Standard.
-> - Detailed conversion rules can be found in [Pro Features](profeatures.md).
+> - `proCode` is mandatory. Without a valid Pro Code, the API handle max. 6 rows of data.
+> - Detailed conversion rules can be found in [Conversion Features](profeatures.md).
 
-### 5.3.2 Response Format
+### 5.3.3 Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -227,7 +97,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted data as array of sheet objects if using URL, string if using direct data, '' if there was an error.|
 
 
-### 5.3.3 Examples 
+### 5.3.4 Examples 
 
 #### Example Request with 'data'
 
@@ -331,7 +201,15 @@ Response:
 }
 ```
 
-## 5.5 Error Handling
+### 5.3.5 Data Type Handling
+This API automatically detects and converts different data types, while users can customize the conversion rules by providing an 'options' object in the request body as described.
+- **Numbers**: Converted to numeric values
+- **Booleans**: Recognizes 'true'/'false' (case-insensitive) and converts to boolean values
+- **Dates**: Detects various date formats and converts them appropriately
+- **Strings**: Treated as string values
+- **Empty values**: Represented as empty strings
+
+## 5.4 Error Handling
 The API returns descriptive error messages for common issues:
 - `Excel Data Format Invalid`: When input data is not tab-separated or comma-separated
 - `At least 2 rows are required`: When input data has fewer than 2 rows
@@ -340,3 +218,4 @@ The API returns descriptive error messages for common issues:
 - `File not found`: When the file at the provided URL cannot be found
 - `Blank/Null/Empty cells in the first row not allowed`: When header row contains empty cells
 - `Server Internal Error`: When an unexpected error occurs
+- `Max 6 rows handled, upgrade to Pro to handle more rows`: When a valid Pro Code is not provided, the API handles max. 6 rows of data

@@ -51,8 +51,8 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 * Click on "Convert" with Excel to JSON logo on the Home Tab
 * Choose Excel DataSource
     * Manually select your data directly from Excel worksheet, or
-    * Let Excel to JSON to convert all visible sheets from Excel, or [Pro Feature]
-    * Let Excel to JSON to convert all sheets from Excel. [Pro Feature]
+    * Let Excel to JSON to convert all visible sheets from Excel, or 
+    * Let Excel to JSON to convert all sheets from Excel. 
 * Set [Conversion Settings](profeatures.md)
 * Click on "Go" button
 * You will later see the converted JSON below the "Go" button. There are several ways for you to save the generated JSON to your local computer.
