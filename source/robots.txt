@@ -1,4 +1,5 @@
-User-agent: *
+User-Agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 Sitemap: https://excel-to-json.wtsolutions.cn/en/latest/sitemap.xml
 Sitemap: https://excel-to-json.wtsolutions.cn/zh-cn/latest/sitemap.xml
