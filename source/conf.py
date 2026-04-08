@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Excel-to-JSON'
-copyright = '2022~2025, WTSolutions'
+copyright = '2022~2026, WTSolutions'
 author = 'WTSolutions'
 release = '5.0.0.0'
 
@@ -18,7 +18,7 @@ release = '5.0.0.0'
 extensions = ['myst_parser','sphinx_sitemap']
 html_baseurl = 'https://excel-to-json.wtsolutions.cn/en/latest/'
 sitemap_url_scheme = "{link}"
-html_extra_path = ['robots.txt','ads.txt','../root_dir']
+html_extra_path = ['robots.txt','ads.txt','../root_dir','llms.txt']
 html_js_files = ['custom.js']
 language ='en'
 templates_path = ['_templates']

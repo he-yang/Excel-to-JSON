@@ -1,10 +1,10 @@
-# 7. Excel Data and Conversion Settings
+# Excel Data and Conversion Settings
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
 Excel to JSON by WTSolutions offers a set of rules of conversion that enhance the functionality of the tools. 
 
-## 7.1 Excel Data
+## Excel Data
 
 ### DataSource
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
@@ -26,7 +26,7 @@ There are several ways for you to input Excel data to Excel to JSON Web App and 
 
 
 
-## 7.2 Conversion Settings
+## Conversion Settings
 
 ### Select Header Row or Column
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
@@ -377,7 +377,7 @@ If you are sideloading Excel to JSON Excel add-in and, your Excel on Windows ver
 - Click the "Take Worksheet Name" button to automatically retrieve the name of the currently active worksheet.
 - The worksheet name will be displayed in the "Filename at SaveAs" input text box.
 
-## 7.3 No Ads
+## No Ads
 
 If you have a valid subscription to Excel-to-JSON, you will not see ads after a successful conversion with a valid Pro Code.
 
@@ -387,14 +387,14 @@ Ads will be displayed if you do not have a valid Pro Code, or if you do not have
 
 > Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart Excel-to-JSON.
 
-## 7.4 More features
+## More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## 7.5 Pro Code
+## Pro Code
 
 Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe or Paddle. This code is required to access Pro Version.
 
-## 7.6 Aftersale services
+## Aftersale services
 
 You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.

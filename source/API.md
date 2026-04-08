@@ -1,21 +1,26 @@
-# 5. API (Excel to JSON by HTTPS POST request)
+# API (Excel to JSON by HTTPS POST request)
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/API.html)
 
 Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSON, both Flat and Nested JSON can be converted. It offer a full-scenario solution for "Converting Excel to JSON", including Excel add-ins, web applications, open APIs, and enterprise-grade MCP tools:
 
-* [Web App: Convert Excel to JSON directly in Web Browser.](WebApp.md)
-* [Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.](ExcelAddIn.md)
-* [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
-* <mark>API: Convert Excel to JSON by HTTPS POST request.</mark> (<-- You are here.)
-* [MCP Service: Convert Excel to JSON by AI Model MCP SSE/StreamableHTTP request.](MCP.md)
+* Web Based Solutions
+     * [Web App: Convert Excel to JSON directly in Web Browser.](WebApp.md)
+     * [Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.](ExcelAddIn.md)
+     * [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
+     * <mark>API: Convert Excel to JSON by HTTPS POST request.</mark> (<-- You are here.)
+     * [MCP Service: Convert Excel to JSON by AI Model MCP request.](MCP.md)
+* Localized Solutions
+     * [Local App: Convert Excel to JSON directly in Local Computer, works without Internet Connection.](LocalApp.md)
+     * [Local Excel add-in: Convert Excel to JSON in Local Excel, works with Local Excel environment seamlessly without Internet Connection.](LocalExcelAddin.md)
+     * [Local WPS add-in: Convert WPS workbook to JSON in Local WPS, works with Local WPS environment seamlessly without Internet Connection.](LocalWPSAddin.md)
 
-## 5.1 Requirements
+## Requirements
 
 HTTPS post request tool, e.g. Postman, Curl, Python Requests, Javascript fetch, etc.
 Make sure you properly handle CORS issues by setting up CORS headers.
 
-## 5.2 Access
+## Access
 
 Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-api` with required parameters described below in usage section. 
 
@@ -31,9 +36,9 @@ Send `POST` request to access point `https://mcp.wtsolutions.cn/excel-to-json-ap
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 5.3 Usage
+## Usage
 
-### 5.3.1 Request Format
+### Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -66,7 +71,7 @@ When sending `url`
 - Each JSON object in 'data' array will have values corresponding to cell values.
 
 
-### 5.3.2 Options Object
+### Options Object
 The optional `options` object can contain the following properties:
 
 | Property             | Type   | Default   | Description                                                                 |
@@ -87,7 +92,7 @@ The optional `options` object can contain the following properties:
 > - `proCode` is mandatory. Without a valid Pro Code, the API handle max. 6 rows of data.
 > - Detailed conversion rules can be found in [Conversion Features](profeatures.md).
 
-### 5.3.3 Response Format
+### Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -97,7 +102,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted data as array of sheet objects if using URL, string if using direct data, '' if there was an error.|
 
 
-### 5.3.4 Examples 
+### Examples 
 
 #### Example Request with 'data'
 
@@ -201,7 +206,7 @@ Response:
 }
 ```
 
-### 5.3.5 Data Type Handling
+### Data Type Handling
 This API automatically detects and converts different data types, while users can customize the conversion rules by providing an 'options' object in the request body as described.
 - **Numbers**: Converted to numeric values
 - **Booleans**: Recognizes 'true'/'false' (case-insensitive) and converts to boolean values
@@ -209,7 +214,7 @@ This API automatically detects and converts different data types, while users ca
 - **Strings**: Treated as string values
 - **Empty values**: Represented as empty strings
 
-## 5.4 Error Handling
+## Error Handling
 The API returns descriptive error messages for common issues:
 - `Excel Data Format Invalid`: When input data is not tab-separated or comma-separated
 - `At least 2 rows are required`: When input data has fewer than 2 rows

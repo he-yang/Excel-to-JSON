@@ -1,21 +1,26 @@
-# 2. Web App (Excel to JSON in Web Browser)
+# Web App (Excel to JSON in Web Browser)
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/WebApp.html)
 
 Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSON, both Flat and Nested JSON can be converted. It offer a full-scenario solution for "Converting Excel to JSON", including Excel add-ins, web applications, open APIs, and enterprise-grade MCP tools:
 
-* <mark>Web App: Convert Excel to JSON directly in Web Browser.</mark> (<-- You are here)
-* [Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.](ExcelAddIn.md)
-* [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
-* [API: Convert Excel to JSON by HTTPS POST request.](API.md)
-* [MCP Service: Convert Excel to JSON by AI Model MCP SSE/StreamableHTTP request.](MCP.md)
+* Web Based Solutions
+     * <mark>Web App: Convert Excel to JSON directly in Web Browser.</mark> (<-- You are here)
+     * [Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.](ExcelAddIn.md)
+     * [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
+     * [API: Convert Excel to JSON by HTTPS POST request.](API.md)
+     * [MCP Service: Convert Excel to JSON by AI Model MCP request.](MCP.md)
+* Localized Solutions
+     * [Local App: Convert Excel to JSON directly in Local Computer, works without Internet Connection.](LocalApp.md)
+     * [Local Excel add-in: Convert Excel to JSON in Local Excel, works with Local Excel environment seamlessly without Internet Connection.](LocalExcelAddin.md)
+     * [Local WPS add-in: Convert WPS workbook to JSON in Local WPS, works with Local WPS environment seamlessly without Internet Connection.](LocalWPSAddin.md)
 
-## 2.1 Requirements
+## Requirements
 
 * A web browser that supports JavaScript, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge etc.
 * A browser works on Windows, Mac, Linux, Android, iOS, etc.
 
-## 2.2 Access
+## Access
 
 * Open a web browser that supports JavaScript, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge etc.
 * Open the following URL in your web browser: <a href="https://s.wtsolutions.cn/excel-to-json.html" target="_blank">https://s.wtsolutions.cn/excel-to-json.html</a>
@@ -36,7 +41,7 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 
 
 
-## 2.3 Usage
+## Usage
 
 * Prepare your Excel sheet
 * Copy and Paste your Excel data in the text area, and make sure the Excel Data in preview is correct
@@ -50,13 +55,13 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
     * `Save to File`. Once JSON generated, you can find the "Save As" button, click on the button, and you will be prompted to save the JSON to a file.
 
 
-## 2.4 Excel Data and Conversion Settings
+## Excel Data and Conversion Settings
 
 Refer to below links for details.
 * [Excel Data](profeatures.md#excel-data)
 * [Conversion Settings](profeatures.md#conversion-settings)
 
 
-## 2.5 Video Guide to Use Excel add-in and Web App
+## Video Guide to Use Excel add-in and Web App
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hvj-O5aIzD0?si=yQdYvZkeKM6hMj6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

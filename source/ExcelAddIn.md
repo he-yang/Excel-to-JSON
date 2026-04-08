@@ -1,16 +1,23 @@
-# 3. Excel Add-in (Excel to JSON in Excel) 
+# Excel Add-in (Excel to JSON in Excel) 
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/ExcelAddIn.html)
 
 Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSON, both Flat and Nested JSON can be converted. It offer a full-scenario solution for "Converting Excel to JSON", including Excel add-ins, web applications, open APIs, and enterprise-grade MCP tools:
 
-* [Web App: Convert Excel to JSON directly in Web Browser.](WebApp.md)
-* <mark>Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.</mark> (<-- You are here)
-* [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
-* [API: Convert Excel to JSON by HTTPS POST request.](API.md)
-* [MCP Service: Convert Excel to JSON by AI Model MCP SSE/StreamableHTTP request.](MCP.md)
+* Web Based Solutions
+     * [Web App: Convert Excel to JSON directly in Web Browser.](WebApp.md)
+     * <mark>Excel add-in: Convert Excel to JSON in Excel, works with Excel environment seamlessly.</mark> (<-- You are here)
+     * [WPS add-in: Convert WPS workbook to JSON in WPS, works with WPS environment seamlessly.](WPSAddIn.md)
+     * [API: Convert Excel to JSON by HTTPS POST request.](API.md)
+     * [MCP Service: Convert Excel to JSON by AI Model MCP request.](MCP.md)
+* Localized Solutions
+     * [Local App: Convert Excel to JSON directly in Local Computer, works without Internet Connection.](LocalApp.md)
+     * [Local Excel add-in: Convert Excel to JSON in Local Excel, works with Local Excel environment seamlessly without Internet Connection.](LocalExcelAddin.md)
+     * [Local WPS add-in: Convert WPS workbook to JSON in Local WPS, works with Local WPS environment seamlessly without Internet Connection.](LocalWPSAddin.md)
 
-## 3.1 Requirements
+
+
+## Requirements
 
 * Excel 2013 Service Pack 1 or later, 
 * Excel 2016 for Mac, 
@@ -18,7 +25,7 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 * Excel Online, 
 * Office 365 etc.
 
-## 3.2 Access
+## Access
 
 * Open a new datasheet in Excel 2013/2016 or Excel Online or Office 365 etc.
 * **Home** Tab or **Insert** Tab > Add-ins
@@ -27,7 +34,7 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 * **Home** Tab > Excel to JSON > Convert
 * Now you are ready to use this add-in.
 
-### 3.2.1 Video Guide to Get Excel add-in (side-load in Excel)
+### Video Guide to Get Excel add-in (side-load in Excel)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tN6lFjjhRfM?si=Yeypz-TplPjX1sWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -45,7 +52,7 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
 
  <a name="Useadd-in"></a> 
 
-## 3.3 Usage
+## Usage
 
 * Prepare your Excel sheet
 * Click on "Convert" with Excel to JSON logo on the Home Tab
@@ -60,11 +67,11 @@ Excel to JSON by WTSolutions is a series of tools which can convert Excel to JSO
     * `Copy to Clipboard`. Once JSON generated, you can find the "Copy to Clipboard" button, click on the button, and you will have JSON on your clipboard.
     * `Save to File`.(Not available to `Excel for Mac` users) Once JSON generated, you can find the "Save As" button, click on the button, and you will be prompted to save the JSON to a file.
 
-## 3.4 Conversion Settings
+## Conversion Settings
 
 Refer to [Conversion Settings](profeatures.md) for details.
 
-## 3.5 Video Guide to Use Excel add-in and Web App
+## Video Guide to Use Excel add-in and Web App
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hvj-O5aIzD0?si=yQdYvZkeKM6hMj6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
