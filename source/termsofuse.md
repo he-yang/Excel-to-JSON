@@ -1,6 +1,6 @@
 # Service Agreement
 
-**Effective Date:** 2026-3-14
+**Effective Date:** 2026-04-12
 
 This service agreement is applicable to Excel to JSON web app, Excel to JSON Excel add-in, and Excel to JSON WPS add-in.
 For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for service agreement.
@@ -34,11 +34,12 @@ To use the Excel-to-JSON Service, you must:
 
 ## 4. License and Restrictions
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to use the Excel-to-JSON add-in solely for your personal or internal business purposes. Without a valid Pro Code, you are subject to the limitations of max. 6 rows of data conversion. To remove the limit, a paid subscription is required. You agree not to:
+We grant you a limited, non-exclusive, non-transferable, revocable license to use the Excel-to-JSON add-in solely for your personal, non-commercial purposes. Commercial use of the Service is strictly prohibited. Without a valid Pro Code, you are subject to the limitations of max. 6 rows of data conversion. To remove the limit, a paid subscription is required. You agree not to:
 - Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the add-in.
 - Distribute, sublicense, lease, rent, or otherwise transfer the add-in to any third party.
 - Use the Service for any illegal or unauthorized purpose.
 - Share or transfer your subscription to another user.
+- Use the Service for any commercial purposes.
 
 ## 5. Subscription Terms
 
@@ -67,7 +68,7 @@ The Excel-to-JSON Service is provided "as is" and "as available" without any war
 
 ## 9. Limitation of Liability
 
-In no event shall **WTSolutions** be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use, arising out of or in connection with your use of the Service, whether in an action in contract, tort, or otherwise, even if we have been advised of the possibility of such damages.
+In no event shall **WTSolutions** be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use, arising out of or in connection with your use of the Service, whether in an action in contract, tort, or otherwise, even if we have been advised of the possibility of such damages. To the maximum extent permitted by applicable law, our total liability to you for any claims arising from or related to this Agreement or the Service shall not exceed the total amount you have paid to us for the Service.
 
 ## 10. Termination
 
