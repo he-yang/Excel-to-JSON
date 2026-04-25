@@ -1,8 +1,8 @@
 # Service Agreement
 
-**Effective Date:** 2026-04-12
+**Effective Date:** 2026-04-24
 
-This service agreement is applicable to Excel to JSON web app, Excel to JSON Excel add-in, and Excel to JSON WPS add-in.
+This service agreement is applicable to Excel to JSON Web App, Excel to JSON Excel add-in, Excel to JSON WPS add-in, and Excel to JSON Localized App.
 For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for service agreement.
 
 ## 1. Introduction
@@ -11,7 +11,7 @@ Welcome to the Excel-to-JSON service ("Service"). This Service Agreement ("Agree
 
 ## 2. Description of Service
 
-The Excel-to-JSON Service is a Microsoft Excel/WPS add-in or Web application that allows users to convert Excel files or WPS workbook into JSON format. The Service is designed to facilitate the conversion of data from Excel/WPS spreadsheets into JSON, which can be used for various applications, including web development, data interchange, and more.
+The Excel-to-JSON Service is a Microsoft Excel/WPS add-in or Web/Localized application that allows users to convert Excel files or WPS workbook into JSON format. The Service is designed to facilitate the conversion of data from Excel/WPS spreadsheets into JSON, which can be used for various applications, including web development, data interchange, and more.
 
 ## 3. User Requirements
 
@@ -41,15 +41,24 @@ We grant you a limited, non-exclusive, non-transferable, revocable license to us
 - Share or transfer your subscription to another user.
 - Use the Service for any commercial purposes.
 
-## 5. Subscription Terms
+## 5. Web Based Solutions Subscription Terms and Localized Solutions Pro Code Purchase Terms
 
-Unlimited data conversion using Excel-to-JSON are available through a monthly subscription. Key terms include:
+For web based solutions, Unlimited data conversion using Excel-to-JSON are available through a subscription. Key terms include:
 - A 7-day free trial period is offered for new subscribers
 - You may cancel your subscription at any time during the trial period without charge
 - After the trial period, your subscription will automatically renew each month
 - You may cancel your subscription at any time, which will take effect at the end of your current billing cycle
 - We reserve the right to modify subscription fees with 30 days' notice
 - All payments are non-refundable except as required by law
+
+For localized solutions, Pro Code Purchase Key terms include:
+- A one-time purchase is available for lifetime use
+- Each Pro Code is bound to one single device ID and can offer 1 single device to access Pro Version
+- No trial period is provided for localized solutions
+- After installing the Local app, you will see a Device ID shown in the app; this Device ID is required to be filled in during the checkout process
+- You will receive a Pro Code by email after the checkout process; this code is required to have unlimited data conversion
+- All payments are non-refundable except as required by law
+
 
 ## 6. User Responsibilities
 
@@ -60,7 +69,7 @@ You are solely responsible for:
 
 ## 7. Data Privacy
 
-We are committed to protecting your privacy. Your Excel/WPS data processed through the Excel-to-JSON Service will not be stored, shared, or used by us for any purpose other than providing the Service. For subscription management, we collect and store necessary billing information in accordance with our Privacy Policy. However, you acknowledge that the Service operates within the Microsoft Excel/WPS environment, and you are responsible for understanding and managing the privacy settings of your Excel/WPS software.
+We are committed to protecting your privacy. Your Excel/WPS data processed through the Excel-to-JSON Service will not be stored, shared, or used by us for any purpose other than providing the Service. For Pro Code management, we collect and store necessary billing information in accordance with our Privacy Policy. However, you acknowledge that the Service operates within the Microsoft Excel/WPS environment, and you are responsible for understanding and managing the privacy settings of your Excel/WPS software.
 
 ## 8. Disclaimer of Warranties
 

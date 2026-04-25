@@ -42,7 +42,7 @@ Refer to `JSON-to-Excel by WTSolutions <https://JSON-to-Excel.wtsolutions.cn/>`_
    MCP.md
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Localized Solutions
 
    LocalApp.md

@@ -9,3 +9,5 @@
 * [jsonlint](https://github.com/zaach/jsonlint) - [MIT License](https://github.com/zaach/jsonlint/blob/master/LICENSE)
 * [cavas dategrid](https://github.com/TonyGermaneri/canvas-datagrid)-[BSD-3-Clause License](https://github.com/TonyGermaneri/canvas-datagrid?tab=BSD-3-Clause-1-ov-file#readme)
 * [xlsx](https://github.com/SheetJS/js-xlsx) - [Apache-2.0 License](https://github.com/SheetJS/js-xlsx/blob/master/LICENSE)
+* [Electron](https://github.com/electron/electron) - [MIT License](https://github.com/electron/electron/blob/main/LICENSE)
+* [node-machine-id](https://github.com/automation-stack/node-machine-id) - [MIT License](https://github.com/automation-stack/node-machine-id/blob/master/LICENSE)

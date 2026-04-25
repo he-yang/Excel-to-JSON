@@ -23,11 +23,17 @@ Pro Version:
 
 ## Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Paddle. This code is required to have unlimited data conversion.
+* Web Based Solutions
+  * Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Paddle. This code is required to have unlimited data conversion.
+  * For web based solutions, subscription (1 month, 3 months, 6 months, 1 year) is available.
 
-## Pro Version Subscription, Payment and Cancellation
+* Localized Solutions
+  * Pro Code is the code you will receive by email after checkout process. This code is required to have unlimited data conversion.
+  * For localized solutions, one-time purchase for lifetime use is available.
 
-7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
+## Web Based Solutions Pro Version Subscription, Payment and Cancellation
+
+7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Version. You can cancel your subscription at any time before the 7th day, and you will not be charged:
 
 | Billing Cycle | Price (USD) | Subscribe through Paddle |
 | :---: | :---: | :---: |
@@ -40,9 +46,9 @@ Pro Code is the `email address` you used during the checkout process of the Exce
 * Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
 * Tax will be automatically calculated based on your location.
 
-Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
+Each web based solution subscription Pro Code can offer 10 devices to access Pro Version.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
-Each Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) add-in provided by WTSolutions:
+Each web based solution subscription Pro code is valid for both Excel-to-JSON and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) add-in provided by WTSolutions:
 - Excel to JSON [Web App](WebApp.md)
 - Excel to JSON [Excel Addin](ExcelAddIn.md)
 - Excel to JSON [WPS Addin](WPSAddIn.md)
@@ -86,6 +92,22 @@ You can cancel your subscription at any time. After the current billing cycle en
 You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features.
 
 [https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
+
+
+## Localized Solutions Pro Code Purchase
+
+One-time purchase for lifetime use is available.
+
+### Purchase Now
+
+[https://buy.stripe.com/fZu14meuf38Mbgu3V83Je0C](https://buy.stripe.com/fZu14meuf38Mbgu3V83Je0C)
+
+Order Now at $14.99 -> $7.99 (excluding tax) for lifetime use (bound to one single device ID). Use promotion code `ExcelJSON202605` to enjoy discount. Promotion code expires on 20260531. Tax will be automatically calculated based on your location.
+
+After installing Local app, you will see a Device ID shown in the app. This Device ID is required to be filled in the checkout process. You should receive a Pro Code by email after checkout process. This code is required to have unlimited data conversion.
+
+Each localized solution Pro Code can offer 1 single device to access Pro Version, and each Pro Code is bound to one single device ID. No trial period provided for localized soltuions, if you would like to have a 7 day free trial, please use the web based solution subscription instead.
+
 
 
 ## Aftersale services

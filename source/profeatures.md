@@ -7,13 +7,17 @@ Excel to JSON by WTSolutions offers a set of rules of conversion that enhance th
 ## Excel Data
 
 ### DataSource
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
 There are several ways for you to input Excel data to Excel to JSON Web App and Excel add-in, or WPS workbook data to WPS add-in:
 
 * Web App: `Load Excel to JSON in web browser`
+    *  Copy and Paste your Excel data in the text area
+    *  You can copy and paste your Excel data from Excel, Google Sheets, or any other Excel-compatible software, data are seperated by Tab
+    *  You can also copy and paste comma seperated CSV data
+* Local App: `Load Excel to JSON in localized app`
     *  Copy and Paste your Excel data in the text area
     *  You can copy and paste your Excel data from Excel, Google Sheets, or any other Excel-compatible software, data are seperated by Tab
     *  You can also copy and paste comma seperated CSV data
@@ -29,7 +33,7 @@ There are several ways for you to input Excel data to Excel to JSON Web App and 
 ## Conversion Settings
 
 ### Select Header Row or Column
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -42,7 +46,7 @@ You can specify:
     - The columns on the right will be considered as "data" columns, and this will be treated as JSON values.
 
 ### Conversion Mode
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -52,7 +56,7 @@ The Conversion Mode specifies how to convert Excel data to JSON. The default mod
 * `nested`: Converts Excel data to JSON in a nested structure. 
 
 ### Nested JSON Key Delimeter
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -105,7 +109,7 @@ Will generate:
 }]
 ```
 ### Output Format for Empty Cell
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -162,7 +166,7 @@ The Empty Cell option handles empty cells in Excel/WPS Workbook with three appro
 ```
 
 ### Output Format for Boolean Values
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -221,7 +225,7 @@ The Boolean Format specifies how to convert boolean values in Excel/WPS Workbook
 ```
 
 ### Output Format for Date Format values
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|❌|✅|✅|❌|❌|
 
@@ -269,7 +273,7 @@ The Date Format specifies how to convert date values in Excel/WPS Workbook:
 ```
 
 ### Output Format for JSON
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -309,7 +313,7 @@ There are two options for you to present output JSON:
 ```
 
 ### Output Format for Single Object JSON
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|✅|❌|
 
@@ -344,7 +348,7 @@ The option specifies how to perserve single object JSON, when there is only one 
 ```
 
 ### Filename at SaveAs
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br>[Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
@@ -393,7 +397,13 @@ If you have subscribed, and would like to see more features, kindly please send 
 
 ## Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe or Paddle. This code is required to access Pro Version.
+* Web Based Solutions
+  * Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Paddle. This code is required to have unlimited data conversion.
+  * For web based solutions, subscription (1 month, 3 months, 6 months, 1 year) is available.
+
+* Localized Solutions
+  * Pro Code is the code you will receive by email after checkout process. This code is required to have unlimited data conversion.
+  * For localized solutions, one-time purchase for lifetime use is available.
 
 ## Aftersale services
 
