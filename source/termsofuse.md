@@ -1,6 +1,6 @@
 # Service Agreement
 
-**Effective Date:** 2026-04-24
+**Effective Date:** 2026-04-27
 
 This service agreement is applicable to Excel to JSON Web App, Excel to JSON Excel add-in, Excel to JSON WPS add-in, and Excel to JSON Localized App.
 For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for service agreement.
@@ -34,11 +34,11 @@ To use the Excel-to-JSON Service, you must:
 
 ## 4. License and Restrictions
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to use the Excel-to-JSON add-in solely for your personal, non-commercial purposes. Commercial use of the Service is strictly prohibited. Without a valid Pro Code, you are subject to the limitations of max. 6 rows of data conversion. To remove the limit, a paid subscription is required. You agree not to:
+We grant you a limited, non-exclusive, non-transferable, revocable license to use the Excel-to-JSON add-in solely for your personal, non-commercial purposes. Commercial use of the Service is strictly prohibited. Without a valid Pro Code, you are subject to the limitations of max. 6 rows of data conversion. To remove the limit, a Pro Code is required. You agree not to:
 - Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the add-in.
 - Distribute, sublicense, lease, rent, or otherwise transfer the add-in to any third party.
 - Use the Service for any illegal or unauthorized purpose.
-- Share or transfer your subscription to another user.
+- Share or transfer your Pro Code to another user.
 - Use the Service for any commercial purposes.
 
 ## 5. Web Based Solutions Subscription Terms and Localized Solutions Pro Code Purchase Terms
