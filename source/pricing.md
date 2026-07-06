@@ -102,13 +102,15 @@ One-time purchase for lifetime use is available.
 
 [https://buy.stripe.com/fZu14meuf38Mbgu3V83Je0C](https://buy.stripe.com/fZu14meuf38Mbgu3V83Je0C)
 
-Order Now at $14.99 -> $7.99 (excluding tax) for lifetime use (bound to one single device ID). Use promotion code `ExcelJSON202605` to enjoy discount. Promotion code expires on 20260531. Tax will be automatically calculated based on your location.
+Order Now at $14.99 (excluding tax) for lifetime use (bound to one single device ID). Tax will be automatically calculated based on your location.
 
-After installing Local app, you will see a Device ID shown in the app. This Device ID is required to be filled in the checkout process. You should receive a Pro Code by email after checkout process. This code is required to have unlimited data conversion.
+After installing LocalApp/LocalExcelAddin, you will see a Device ID shown in the app. This Device ID is required to be filled in the checkout process. You should receive a Pro Code by email after checkout process. This code is required to have unlimited data conversion.
 
 Each localized solution Pro Code can offer 1 single device to access Pro Version, and each Pro Code is bound to one single device ID. No trial period provided for localized soltuions, if you would like to have a 7 day free trial, please use the web based solution subscription instead.
 
-
+Each localized solution Pro code is valid for Excel-to-JSON provided by WTSolutions:
+- Excel to JSON [Local App](LocalApp.md)
+- Excel to JSON [Local Excel Addin](LocalExcelAddin.md)
 
 ## Aftersale services
 

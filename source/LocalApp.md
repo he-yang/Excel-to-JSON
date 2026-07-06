@@ -1,4 +1,4 @@
-# Localized App
+# Localized App (Excel to JSON in Local App Offline Conversion)
 
 [中文](https://excel-to-json.wtsolutions.cn/zh-cn/latest/LocalApp.html)
 
@@ -20,8 +20,7 @@
 
 ## Download
 
-* [Windows](https://r2.wtsolutions.cn/e2j-releases/Excel-to-JSON-by-WTSolutions-LocalApp-6.0.0-win.exe)
-* [MacOS](https://r2.wtsolutions.cn/e2j-releases/Excel-to-JSON-by-WTSolutions-LocalApp-6.0.0.dmg)
+* [Download Links](https://s.wtsolutions.cn/latest?product=excel-to-json-local-app&language=en)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
@@ -35,8 +34,6 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-
 
 ## Usage
 

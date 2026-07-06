@@ -1,8 +1,8 @@
 # Service Agreement
 
-**Effective Date:** 2026-04-27
+**Effective Date:** 2026-07-06
 
-This service agreement is applicable to Excel to JSON Web App, Excel to JSON Excel add-in, Excel to JSON WPS add-in, and Excel to JSON Localized App.
+This service agreement is applicable to Excel to JSON Web App, Excel to JSON Excel add-in, Excel to JSON WPS add-in, Excel to JSON Localized App and Excel to JSON Local Excel Addin.
 For Excel to JSON api and Excel to JSON MCP service, refer to https://github.com/he-yang/excel-to-json-mcp for service agreement.
 
 ## 1. Introduction

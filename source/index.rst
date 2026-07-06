@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Excel-to-JSON by WTSolutions, Excel add-in, WPS add-in, API, MCP Service. Convert Excel to JSON within Excel (web online, windows, mac, linux) or WPS
-=================================================================================================================
+===================================================================================================================================================================
 
 `中文 <https://excel-to-json.wtsolutions.cn/zh-cn/latest/>`_
 
