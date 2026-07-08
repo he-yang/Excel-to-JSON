@@ -108,9 +108,11 @@ After installing LocalApp/LocalExcelAddin, you will see a Device ID shown in the
 
 Each localized solution Pro Code can offer 1 single device to access Pro Version, and each Pro Code is bound to one single device ID. No trial period provided for localized soltuions, if you would like to have a 7 day free trial, please use the web based solution subscription instead.
 
-Each localized solution Pro code is valid for Excel-to-JSON provided by WTSolutions:
+Each localized solution Pro code is valid for Excel-to-JSON and JSON-to-Excel provided by WTSolutions:
 - Excel to JSON [Local App](LocalApp.md)
 - Excel to JSON [Local Excel Addin](LocalExcelAddin.md)
+- JSON to Excel [Local App](https://json-to-excel.wtsolutions.cn/en/latest/LocalApp.md)
+- JSON to Excel [Local Excel AddIn](https://json-to-excel.wtsolutions.cn/en/latest/LocalExcelAddIn.md)
 
 ## Aftersale services
 
