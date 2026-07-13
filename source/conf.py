@@ -56,7 +56,7 @@ html_theme_options = {
 
 html_context = {
     "languages": [
-        ("English", "/en/%s/", "en"),
-        ("中文", "/zh-cn/%s/", "zh-cn"),
+        ("English", "/en/latest/%s.html", "en"),
+        ("中文", "/zh-cn/latest/%s.html", "zh-cn"),
     ]
 }
