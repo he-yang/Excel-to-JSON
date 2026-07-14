@@ -25,7 +25,7 @@ templates_path = ['_templates']
 exclude_patterns = [
     'donation.md','usage.md','requirements.txt','.DS_Store'
 ]
-
+myst_enable_extensions = ["colon_fence"]
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'markdown',
@@ -45,12 +45,30 @@ html_theme_options = {
     "nav_links": [
         {
             "title": "Product File",
-            "url": "https://s.wtsolutions.cn/excel-json-product.html"
+            "url": "https://s.wtsolutions.cn/excel-json-product.html",
+            "external": True
         },
         {
             "title": "Excel-to-JSON Web App",
-            "url": "https://s.wtsolutions.cn/excel-to-json.html"
+            "url": "https://s.wtsolutions.cn/excel-to-json.html",
+            "external": True
         },
+        {
+            "title": "Related Products",
+            "url": "products",
+            "children": [
+                {
+                    "title": "JSON-to-Excel",
+                    "url": "https://s.wtsolutions.cn/excel-json-product.html",
+                    "external": True
+                },
+                {
+                    "title": "Sheet-to-Doc",
+                    "url": "https://s.wtsolutions.cn/sheet-to-doc-product.html",
+                    "external": True
+                }
+            ]
+        }
     ]
 }
 

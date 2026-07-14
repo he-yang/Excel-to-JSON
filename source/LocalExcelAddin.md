@@ -14,8 +14,10 @@
      * [Local WPS add-in: Convert WPS workbook to JSON in Local WPS, works with Local WPS environment seamlessly without Internet Connection.](LocalWPSAddin.md)
 
 
-
-Currently, Excel-to-JSON Localized Excel addin is in public test, if you have difficulties using it, email he.yang@wtsolutions.cn
+:::{note}
+    Currently, Excel-to-JSON Localized Excel addin is in public test. 
+    If you have difficulties using it, email he.yang@wtsolutions.cn
+:::
 
 
 ## Requirements
