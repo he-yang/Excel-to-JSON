@@ -37,10 +37,10 @@ Pro Version:
 
 | Billing Cycle | Price (USD) | Subscribe through Paddle |
 | :---: | :---: | :---: |
-| Every Month | US$2.66, excluding tax | <button onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")'>Free Trial and Subscribe</button> |
-| Every Quarter (3 months) | US$3.66, excluding tax | <button onclick='checkoutnow("pri_01k19xzfq77gp4tvtqypjyfqdq")'>Free Trial and Subscribe</button> |
-| Every Half year (6 months) | US$4.99, excluding tax | <button onclick='checkoutnow("pri_01k19y29j38js9zwnq36tkwkqv")'>Free Trial and Subscribe</button> |
-| Every Year | US$5.99, excluding tax | <button onclick='checkoutnow("pri_01k19y3basxqvta0cycksqsjaf")'>Free Trial and Subscribe</button> |
+| Every Month | US$2.66, excluding tax | <button style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;" onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")'>Free Trial and Subscribe</button> |
+| Every Quarter (3 months) | US$3.66, excluding tax | <button style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;" onclick='checkoutnow("pri_01k19xzfq77gp4tvtqypjyfqdq")'>Free Trial and Subscribe</button> |
+| Every Half year (6 months) | US$4.99, excluding tax | <button style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;" onclick='checkoutnow("pri_01k19y29j38js9zwnq36tkwkqv")'>Free Trial and Subscribe</button> |
+| Every Year | US$5.99, excluding tax | <button style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;" onclick='checkoutnow("pri_01k19y3basxqvta0cycksqsjaf")'>Free Trial and Subscribe</button> |
 
 
 * Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
@@ -74,10 +74,10 @@ The subscription is managed through [Paddle](https://paddle.com/).
 
 ### Subscribe Now
 
-<button onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")'>Start 7 Day Free Trial Now, then USD $2.66 / month (excluding tax)</button>
-<button onclick='checkoutnow("pri_01k19xzfq77gp4tvtqypjyfqdq")'>Start 7 Day Free Trial Now, then USD $3.66 / quarter (3 months) (excluding tax)</button>
-<button onclick='checkoutnow("pri_01k19y29j38js9zwnq36tkwkqv")'>Start 7 Day Free Trial Now, then USD $4.99 / half year (6 months) (excluding tax)</button>
-<button onclick='checkoutnow("pri_01k19y3basxqvta0cycksqsjaf")'>Start 7 Day Free Trial Now, then USD $5.99 / year (excluding tax)</button>
+<button onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")' style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">Start 7 Day Free Trial Now, then USD $2.66 / month (excluding tax)</button>
+<button onclick='checkoutnow("pri_01k19xzfq77gp4tvtqypjyfqdq")' style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">Start 7 Day Free Trial Now, then USD $3.66 / quarter (3 months) (excluding tax)</button>
+<button onclick='checkoutnow("pri_01k19y29j38js9zwnq36tkwkqv")' style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">Start 7 Day Free Trial Now, then USD $4.99 / half year (6 months) (excluding tax)</button>
+<button onclick='checkoutnow("pri_01k19y3basxqvta0cycksqsjaf")' style="background-color: #007bff; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">Start 7 Day Free Trial Now, then USD $5.99 / year (excluding tax)</button>
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
