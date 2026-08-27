@@ -84,7 +84,7 @@ For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 ### Cancel or Manage Subcription (Paddle)
 
 You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features. Management of subscription can be performed through paddle customer portal.
-
+ 
 [https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf](https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf)
 
 ### Cancel or Manage Subcription (Stripe)
